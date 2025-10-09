@@ -63764,7 +63764,7 @@
         "bus_routes": [],
         "contractor": "Guernsey Water",
         "reference": "P040258-GW1-D",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -94387,7 +94387,7 @@
         "bus_routes": [],
         "contractor": "Guernsey Water",
         "reference": "P040735-GW1-D",
-        "status": "Approved",
+        "status": "In Progress",
         "tm_type": "",
         "source": "merged"
       }
@@ -94484,7 +94484,7 @@
         "bus_routes": [],
         "contractor": "Guernsey Water",
         "reference": "P040737-GW1-D",
-        "status": "Approved",
+        "status": "In Progress",
         "tm_type": "",
         "source": "merged"
       }
@@ -95566,6 +95566,6 @@
     }
   ],
   "metadata": {
-    "built_at": "2025-10-09T13:03:27Z"
+    "built_at": "2025-10-09T13:17:01Z"
   }
 }
