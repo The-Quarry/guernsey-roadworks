@@ -2,17 +2,27 @@ name: Build & publish data
 
 on:
   push:
+    # Run on common site/data changes. Add/remove patterns as you like.
     paths:
       - latest.xlsx
       - build_from_arcgis_and_sheet.py
       - requirements.txt
       - index.html
+      - assets/**               # include logo, css, etc
+      - data/**                 # allow manual edits to data/ to deploy
   schedule:
-    - cron: '0 6 * * 1'     # Mondays 06:00 UTC
+    - cron: '0 6 * * 1'         # Mondays 06:00 UTC
   workflow_dispatch:
 
+# Required for Pages via Actions
 permissions:
-  contents: write
+  contents: write         # to commit updated data
+  pages: write            # to deploy Pages
+  id-token: write         # to authenticate the Pages deploy
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   build:
@@ -33,8 +43,15 @@ jobs:
       - name: Ensure data folder
         run: mkdir -p data
 
-      - name: Run builder
-        run: python build_from_arcgis_and_sheet.py
+      - name: Generate data (with retry)
+        run: |
+          set -e
+          for i in 1 2 3; do
+            python -u build_from_arcgis_and_sheet.py && break || {
+              echo "Retry $i/3 after a short sleep…"
+              sleep 10
+            }
+          done
 
       - name: Commit data if changed
         run: |
@@ -42,3 +59,18 @@ jobs:
           git config user.email "github-actions@users.noreply.github.com"
           git add data/closures.json data/closures_lines.json || true
           git diff --staged --quiet || (git commit -m "Update data" && git push)
+
+      # ---- Pages deploy steps ----
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      # Upload the entire repo working directory as the website artifact.
+      # Your index.html at repo root will be the entry point.
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
