@@ -9618,9 +9618,32 @@
         "tm_type": "",
         "source": "merged"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5726054164681504,
+          49.46127229699823
+        ]
+      },
+      "properties": {
+        "road": "CASTEL - CHEMIN ROBIN",
+        "start_date": "2025-10-13",
+        "end_date": "2025-12-18",
+        "what": "Building Maintenance",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "ICBM Ltd",
+        "reference": "P040756-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
     }
   ],
   "metadata": {
-    "built_at": "2025-10-09T12:56:37Z"
+    "built_at": "2025-10-09T13:03:27Z"
   }
 }
