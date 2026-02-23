@@ -216,6 +216,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -2.5623893547815713,
+          49.425622694142284
+        ]
+      },
+      "properties": {
+        "road": "ST. MARTIN - RUE DES MARETTES",
+        "start_date": "2026-05-18",
+        "end_date": "2026-06-05",
+        "what": "Major Highway Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "THS - Highways",
+        "reference": "P035100-THS4",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -2.5688917929759856,
           49.458945068735304
         ]
@@ -461,39 +484,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5490416026818052,
-          49.45097553760356
-        ]
-      },
-      "properties": {
-        "road": "MOUNT DURAND; MOUNT ROW; PRINCE ALBERT ROAD; QUEENS ROAD",
-        "start_date": "2026-02-14",
-        "end_date": "2026-02-22",
-        "what": "Major Highway Works",
-        "description": "Road resurfacing; Parking suspension: all on street parking",
-        "bus_routes": [
-          "1B",
-          "7A",
-          "LMDC",
-          "N4",
-          "Vauvert",
-          "60",
-          "61",
-          "71",
-          "81"
-        ],
-        "contractor": "Ronez (Patching)",
-        "reference": "P037850-THS4",
-        "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.5435307242919105,
           49.430025019835554
         ]
@@ -606,64 +596,6 @@
         "reference": "P038290-THS2",
         "status": "In Progress",
         "tm_type": "Lanes Reduced",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.552189461885916,
-          49.476247590810765
-        ]
-      },
-      "properties": {
-        "road": "LA ROUTE DES CAPELLES; ROUTE DES QUARTIERS; VERTE RUE",
-        "start_date": "2026-02-16",
-        "end_date": "2026-02-17",
-        "what": "Utility Works",
-        "description": "Streetlight replacement",
-        "bus_routes": [
-          "1A",
-          "1B",
-          "Capelles",
-          "SS",
-          "31",
-          "32"
-        ],
-        "contractor": "Trant",
-        "reference": "P038421-GE1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5470223457251926,
-          49.46423684182233
-        ]
-      },
-      "properties": {
-        "road": "MAUREPAS ROAD",
-        "start_date": "2026-02-17",
-        "end_date": "2026-02-18",
-        "what": "Utility Works",
-        "description": "school crossing lights and street light",
-        "bus_routes": [
-          "1B",
-          "2B",
-          "Capelles",
-          "PS"
-        ],
-        "contractor": "Trant",
-        "reference": "P038782-GE1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -932,75 +864,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.6611865712940443,
-          49.434218230100555
-        ]
-      },
-      "properties": {
-        "road": "RUE DU PORTELET",
-        "start_date": "2025-09-01",
-        "end_date": "2026-02-20",
-        "what": "Skips / Building Material",
-        "description": "Compound site for sea wall repairs; Parking suspension: 5 spaces at the end pf the parking by disabled bay and 2 outside Café",
-        "bus_routes": [],
-        "contractor": "States Property Unit",
-        "reference": "P039956-THS1",
-        "status": "In Progress",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5872598195160923,
-          49.46081286238579
-        ]
-      },
-      "properties": {
-        "road": "LES BEAUCAMPS",
-        "start_date": "2026-02-16",
-        "end_date": "2026-02-18",
-        "what": "Utility Works",
-        "description": "supply line upgrade",
-        "bus_routes": [],
-        "contractor": "Trant",
-        "reference": "P039980-GE1",
-        "status": "Approved",
-        "tm_type": "Give/Take",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.656213709111413,
-          49.43515064301679
-        ]
-      },
-      "properties": {
-        "road": "ROUTE DE LA LAGUE",
-        "start_date": "2025-09-01",
-        "end_date": "2026-02-20",
-        "what": "Skips / Building Material",
-        "description": "Compound for repairs to seawall ; Parking suspension: first 6 herringbone spaces by slipway",
-        "bus_routes": [],
-        "contractor": "States Property Unit",
-        "reference": "P039982-THS1",
-        "status": "In Progress",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.519918434682012,
           49.482259094429274
         ]
@@ -1016,40 +879,6 @@
         "reference": "P040001-THS1",
         "status": "Ongoing",
         "tm_type": "",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.541277151774255,
-          49.48156358570372
-        ]
-      },
-      "properties": {
-        "road": "LE BORDAGE ROAD",
-        "start_date": "2026-02-17",
-        "end_date": "2026-02-18",
-        "what": "Utility Works",
-        "description": "service alteration",
-        "bus_routes": [
-          "1A",
-          "1B",
-          "2A",
-          "2B",
-          "3A",
-          "7B",
-          "Amherst",
-          "HS",
-          "PS",
-          "SS"
-        ],
-        "contractor": "Trant",
-        "reference": "P040211-GE1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -1346,29 +1175,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.536421251260508,
-          49.45489694195194
-        ]
-      },
-      "properties": {
-        "road": "CHURCH SQUARE",
-        "start_date": "2025-10-02",
-        "end_date": "2026-02-20",
-        "what": "Hoardings",
-        "description": "Hoarding for safety of pedestrians.",
-        "bus_routes": [],
-        "contractor": "F Watson and Son",
-        "reference": "P040655-THS1",
-        "status": "In Progress",
-        "tm_type": "No Tm",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.5362428793717013,
           49.45600336552044
         ]
@@ -1461,39 +1267,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5675105182151094,
-          49.46232739247748
+          -2.539756904511833,
+          49.4552700520015
         ]
       },
       "properties": {
-        "road": "RUE DES VARENDES",
-        "start_date": "2026-02-16",
-        "end_date": "2026-02-18",
-        "what": "Utility Works",
-        "description": "Supply line alteration",
-        "bus_routes": [
-          "1A",
-          "1B",
-          "5A",
-          "5B",
-          "6A",
-          "6B",
-          "7A",
-          "7B",
-          "8A",
-          "Castel",
-          "LB",
-          "LMDC",
-          "LV",
-          "N2",
-          "P2",
-          "41",
-          "42"
-        ],
-        "contractor": "Trant",
-        "reference": "P040875-GE1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
+        "road": "ST. PETER PORT - UNION STREET",
+        "start_date": "2025-10-17",
+        "end_date": "2026-03-31",
+        "what": "Scaffolding",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Island Scaffolding",
+        "reference": "P040770-THS2",
+        "status": "In Progress",
+        "tm_type": "",
         "source": "merged"
       }
     },
@@ -1540,39 +1328,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.584929173472771,
-          49.466176417589125
+          -2.59007266226491,
+          49.47854378708141
         ]
       },
       "properties": {
-        "road": "MONT D`AVAL",
-        "start_date": "2026-02-16",
-        "end_date": "2026-02-19",
-        "what": "Road Side Works",
-        "description": "Tree works",
-        "bus_routes": [
-          "1A",
-          "1B",
-          "3A",
-          "3B",
-          "5A",
-          "5B",
-          "6A",
-          "6B",
-          "7A",
-          "7B",
-          "8A",
-          "Castel",
-          "LB",
-          "LMDC",
-          "LV",
-          "N2",
-          "42"
-        ],
-        "contractor": "Arbology",
-        "reference": "P040942-THS2",
+        "road": "CASTEL - COBO COAST ROAD",
+        "start_date": "2026-05-24",
+        "end_date": "2026-05-24",
+        "what": "Event",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Cobo Bay Hotel - Nut Tree Ltd",
+        "reference": "P040886-THS1",
         "status": "Approved",
-        "tm_type": "Road Closure",
+        "tm_type": "",
         "source": "merged"
       }
     },
@@ -1596,29 +1366,6 @@
         "reference": "P041011-THS2",
         "status": "In Progress",
         "tm_type": "Lanes Reduced",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5537908857880764,
-          49.43638100100027
-        ]
-      },
-      "properties": {
-        "road": "LA GRANDE RUE",
-        "start_date": "2026-02-16",
-        "end_date": "2026-02-18",
-        "what": "Road Side Works",
-        "description": "Installing drop curb",
-        "bus_routes": [],
-        "contractor": "EC Carpentry",
-        "reference": "P041072-THS2",
-        "status": "Approved",
-        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -1821,37 +1568,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5347597682718144,
-          49.47903822424042
-        ]
-      },
-      "properties": {
-        "road": "DUVEAUX ROAD",
-        "start_date": "2026-02-19",
-        "end_date": "2026-02-20",
-        "what": "Utility Works",
-        "description": "service alteration",
-        "bus_routes": [
-          "3A",
-          "4A",
-          "5A",
-          "6A",
-          "8A",
-          "SS",
-          "21"
-        ],
-        "contractor": "Trant",
-        "reference": "P041338-GE1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.554959232512792,
           49.4392862140454
         ]
@@ -1889,29 +1605,6 @@
         "contractor": "Ravenscroft Construction Ltd",
         "reference": "P041388-THS1",
         "status": "In Progress",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5351095466014777,
-          49.45811800608109
-        ]
-      },
-      "properties": {
-        "road": "LOWER POLLET",
-        "start_date": "2026-02-15",
-        "end_date": "2026-02-17",
-        "what": "Utility Works",
-        "description": "Essential maintenance upgrade to gas services; Parking suspension: Unloading bay &amp; 1 space outside Tinto/Red",
-        "bus_routes": [],
-        "contractor": "Guernsey Gas",
-        "reference": "P041419-GG1",
-        "status": "Approved",
         "tm_type": "Signing Only",
         "source": "merged"
       }
@@ -2107,29 +1800,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.536449877156849,
-          49.453310420486595
-        ]
-      },
-      "properties": {
-        "road": "COUPEE LANE",
-        "start_date": "2025-12-06",
-        "end_date": "2026-02-22",
-        "what": "Scaffolding",
-        "description": "Scaffolding ; Property: 7 Coupee Lane; Purpose: External Decoration; Parking suspension: 2 spaces at the top of Coupee Lane.",
-        "bus_routes": [],
-        "contractor": "Access Scaffolding",
-        "reference": "P041629-THS2",
-        "status": "In Progress",
-        "tm_type": "Lanes Reduced",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.5196088013578253,
           49.48331095510098
         ]
@@ -2200,29 +1870,6 @@
         "reference": "P041699-THS2",
         "status": "In Progress",
         "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5385374943059054,
-          49.454200759696825
-        ]
-      },
-      "properties": {
-        "road": "CONSTITUTION STEPS",
-        "start_date": "2025-12-15",
-        "end_date": "2026-02-22",
-        "what": "Scaffolding",
-        "description": "Scaffolding; Property: Castle View; Purpose: Roofing Works; Parking suspension: Unloading bay in Clifton",
-        "bus_routes": [],
-        "contractor": "Access Scaffolding",
-        "reference": "P041700-THS2",
-        "status": "In Progress",
-        "tm_type": "Lanes Reduced",
         "source": "merged"
       }
     },
@@ -2347,62 +1994,6 @@
         "contractor": "Trant",
         "reference": "P041848-GE1",
         "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.549596563407431,
-          49.45214791216756
-        ]
-      },
-      "properties": {
-        "road": "QUEENS ROAD",
-        "start_date": "2026-02-14",
-        "end_date": "2026-02-16",
-        "what": "Utility Works",
-        "description": "Repair GW cover and frame",
-        "bus_routes": [
-          "1B",
-          "7A",
-          "LMDC",
-          "N4",
-          "Vauvert",
-          "60",
-          "61",
-          "71",
-          "81"
-        ],
-        "contractor": "Geomarine",
-        "reference": "P041851-GWW1-D",
-        "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5415932066542424,
-          49.45109618949742
-        ]
-      },
-      "properties": {
-        "road": "PARK STREET",
-        "start_date": "2025-12-16",
-        "end_date": "2026-02-16",
-        "what": "Loading / Unloading",
-        "description": "Delivery of materials; Parking suspension: 4 spaces opposite Borough House excluding the following dates 05/01/26 until 08/01/26",
-        "bus_routes": [],
-        "contractor": "Oyster Catcher Properties Ltd",
-        "reference": "P041858-THS1",
-        "status": "In Progress",
         "tm_type": "Signing Only",
         "source": "merged"
       }
@@ -2604,98 +2195,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.530802554760946,
-          49.461438887871125
-        ]
-      },
-      "properties": {
-        "road": "LA SALERIE CAR PARK",
-        "start_date": "2026-02-19",
-        "end_date": "2026-02-19",
-        "what": "Road Side Works",
-        "description": "Annual EV inspection ; Parking suspension: EV charging point in bottom arm",
-        "bus_routes": [],
-        "contractor": "Traffic and Highway Services (Parking Suspensions and Events)",
-        "reference": "P041992-THS1",
-        "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5420893190374816,
-          49.457167730414604
-        ]
-      },
-      "properties": {
-        "road": "MONUMENT GARDENS",
-        "start_date": "2026-02-19",
-        "end_date": "2026-02-19",
-        "what": "Road Side Works",
-        "description": "Annual EV inspection ; Parking suspension: All EV charging spaces at the front of the Odeon",
-        "bus_routes": [],
-        "contractor": "Traffic and Highway Services (Parking Suspensions and Events)",
-        "reference": "P041994-THS1",
-        "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.533300768757173,
-          49.45876898357837
-        ]
-      },
-      "properties": {
-        "road": "NORTH BEACH CAR PARK",
-        "start_date": "2026-02-19",
-        "end_date": "2026-02-19",
-        "what": "Road Side Works",
-        "description": "Annual EV inspection ; Parking suspension: All EV charging bays",
-        "bus_routes": [],
-        "contractor": "Traffic and Highway Services (Parking Suspensions and Events)",
-        "reference": "P041999-THS1",
-        "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.51768913150247,
-          49.48233894518179
-        ]
-      },
-      "properties": {
-        "road": "SOUTH QUAY",
-        "start_date": "2026-02-19",
-        "end_date": "2026-02-19",
-        "what": "Road Side Works",
-        "description": "Annual EV inspection ; Parking suspension: All EV parking spaces marina side",
-        "bus_routes": [],
-        "contractor": "Traffic and Highway Services (Parking Suspensions and Events)",
-        "reference": "P042001-THS1",
-        "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.53584215201423,
           49.45608992367598
         ]
@@ -2709,52 +2208,6 @@
         "bus_routes": [],
         "contractor": "Access Scaffolding",
         "reference": "P042016-THS2",
-        "status": "In Progress",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5382126230820816,
-          49.45789165928069
-        ]
-      },
-      "properties": {
-        "road": "HOSPITAL LANE",
-        "start_date": "2026-02-18",
-        "end_date": "2026-02-18",
-        "what": "Loading / Unloading",
-        "description": "Crane lift scaffolding",
-        "bus_routes": [],
-        "contractor": "Impact Scaffolding",
-        "reference": "P042017-THS2",
-        "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5405787981063312,
-          49.46008112645403
-        ]
-      },
-      "properties": {
-        "road": "L'HYVREUSE",
-        "start_date": "2026-01-05",
-        "end_date": "2026-02-20",
-        "what": "Loading / Unloading",
-        "description": "Hotel renovations ; Parking suspension: 3 spaces after M/C bay",
-        "bus_routes": [],
-        "contractor": "DOR Limited",
-        "reference": "P042055-THS1",
         "status": "In Progress",
         "tm_type": "Signing Only",
         "source": "merged"
@@ -2924,29 +2377,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.543252978283347,
-          49.45001290289544
-        ]
-      },
-      "properties": {
-        "road": "LA CHARROTERIE",
-        "start_date": "2026-01-12",
-        "end_date": "2026-02-22",
-        "what": "Site Entrances",
-        "description": "Site entrance ; Parking suspension: 2 spaces outside Domaine des Moulins",
-        "bus_routes": [],
-        "contractor": "Geomarine",
-        "reference": "P042123-THS1",
-        "status": "In Progress",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.5384220219549123,
           49.44958376125214
         ]
@@ -2962,29 +2392,6 @@
         "reference": "P042178-GE1",
         "status": "Approved",
         "tm_type": "Give/Take",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.596887784901614,
-          49.46901149337924
-        ]
-      },
-      "properties": {
-        "road": "LES QUERITES",
-        "start_date": "2026-02-16",
-        "end_date": "2026-02-20",
-        "what": "Utility Works",
-        "description": "Install new surface water connection",
-        "bus_routes": [],
-        "contractor": "Geomarine",
-        "reference": "P042181-GEO",
-        "status": "Approved",
-        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -3031,29 +2438,6 @@
         "reference": "P042269-GE1",
         "status": "Approved",
         "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5585809398008896,
-          49.43446601483213
-        ]
-      },
-      "properties": {
-        "road": "LA ROUTE DES COUTURES",
-        "start_date": "2026-02-16",
-        "end_date": "2026-02-18",
-        "what": "Utility Works",
-        "description": "Essential maintenance to gas services; Parking suspension: Last parking space in entrance to Route des Coutures Estate",
-        "bus_routes": [],
-        "contractor": "Guernsey Gas",
-        "reference": "P042273-GG1",
-        "status": "Approved",
-        "tm_type": "Give/Take",
         "source": "merged"
       }
     },
@@ -3318,29 +2702,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.540765565085648,
-          49.45507532553661
-        ]
-      },
-      "properties": {
-        "road": "UNION STREET",
-        "start_date": "2026-02-16",
-        "end_date": "2026-02-20",
-        "what": "Utility Works",
-        "description": "Urgent repair works.; Parking suspension: All spaces in attached plan",
-        "bus_routes": [],
-        "contractor": "Sure Guernsey",
-        "reference": "P042357-SURE1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.553302969826523,
           49.46412669337184
         ]
@@ -3471,29 +2832,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5347995344364294,
-          49.46855061535625
-        ]
-      },
-      "properties": {
-        "road": "LES BANQUES",
-        "start_date": "2026-02-19",
-        "end_date": "2026-02-19",
-        "what": "Road Side Works",
-        "description": "Cleaning of outfall pipe",
-        "bus_routes": [],
-        "contractor": "Drainforce Ltd",
-        "reference": "P042436-THS2",
-        "status": "Approved",
-        "tm_type": "Lanes Reduced",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.5862584589075683,
           49.43631161570689
         ]
@@ -3540,6 +2878,29 @@
         "reference": "P042438-THS3-D",
         "status": "Approved",
         "tm_type": "Road Closure",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5406089571810067,
+          49.45573697588666
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - ST. JOHN STREET",
+        "start_date": "2026-01-21",
+        "end_date": "2026-02-27",
+        "what": "Scaffolding",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Apex Scaffold",
+        "reference": "P042441-THS2",
+        "status": "In Progress",
+        "tm_type": "",
         "source": "merged"
       }
     },
@@ -3629,35 +2990,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5483228664798436,
-          49.44984494656332
-        ]
-      },
-      "properties": {
-        "road": "PRINCE ALBERT ROAD",
-        "start_date": "2026-02-21",
-        "end_date": "2026-02-21",
-        "what": "Lifting Operations",
-        "description": "Crane lift for essential substation maintenance",
-        "bus_routes": [
-          "1B",
-          "7A",
-          "7B",
-          "LMDC",
-          "Vauvert"
-        ],
-        "contractor": "Guernsey Electricity",
-        "reference": "P042454-GE1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.5462070740822114,
           49.459953720599295
         ]
@@ -3736,29 +3068,6 @@
         "reference": "P042465-THS2",
         "status": "Approved",
         "tm_type": "Give/Take",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.601639632347561,
-          49.458169696670694
-        ]
-      },
-      "properties": {
-        "road": "KING'S MILLS ROAD",
-        "start_date": "2026-02-16",
-        "end_date": "2026-02-20",
-        "what": "Road Side Works",
-        "description": "Rebuilding roadside wall",
-        "bus_routes": [],
-        "contractor": "Stoneworks Ltd",
-        "reference": "P042470-THS2",
-        "status": "Approved",
-        "tm_type": "Portable Signals",
         "source": "merged"
       }
     },
@@ -4108,8 +3417,8 @@
       },
       "properties": {
         "road": "ST. PETER PORT - FOUNTAIN STREET",
-        "start_date": "2026-03-17",
-        "end_date": "2026-03-19",
+        "start_date": "2026-03-14",
+        "end_date": "2026-03-16",
         "what": "Utility Works",
         "description": "Works",
         "bus_routes": [],
@@ -4140,52 +3449,6 @@
         "reference": "P042524-GW1-D",
         "status": "Approved",
         "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5374889505990725,
-          49.45701357557838
-        ]
-      },
-      "properties": {
-        "road": "RUE DU MANOIR",
-        "start_date": "2026-01-26",
-        "end_date": "2026-02-22",
-        "what": "Scaffolding",
-        "description": "Scaffolding ; Property: Prince of Wales; Purpose: Roofing Works; Parking suspension: 4 spaces outside Prince of Wales",
-        "bus_routes": [],
-        "contractor": "Formula Scaffolding",
-        "reference": "P042525-THS1",
-        "status": "In Progress",
-        "tm_type": "Lanes Reduced",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.539359159076077,
-          49.45486191167336
-        ]
-      },
-      "properties": {
-        "road": "SAUSMAREZ STREET",
-        "start_date": "2026-02-20",
-        "end_date": "2026-02-20",
-        "what": "Loading / Unloading",
-        "description": "House move; Parking suspension: 4 spaces outside Aldbrook House No 23",
-        "bus_routes": [],
-        "contractor": "R and R Removals",
-        "reference": "P042529-THS1",
-        "status": "Approved",
-        "tm_type": "Signing Only",
         "source": "merged"
       }
     },
@@ -4344,29 +3607,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.539995549767906,
-          49.45522905161157
-        ]
-      },
-      "properties": {
-        "road": "UNION STREET",
-        "start_date": "2026-02-20",
-        "end_date": "2026-02-20",
-        "what": "Loading / Unloading",
-        "description": "House move; Parking suspension: Unloading bay outside No 4",
-        "bus_routes": [],
-        "contractor": "R and R Removals",
-        "reference": "P042570-THS1",
-        "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.570320572589805,
           49.46573546830402
         ]
@@ -4416,29 +3656,6 @@
         "reference": "P042576-THS2",
         "status": "Approved",
         "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.546696790227978,
-          49.458258901384
-        ]
-      },
-      "properties": {
-        "road": "BROCK ROAD; ROSAIRE AVENUE",
-        "start_date": "2026-02-17",
-        "end_date": "2026-02-17",
-        "what": "Utility Works",
-        "description": "Parking suspended to allow cable pull and splicing ; Parking suspension: see attached pic",
-        "bus_routes": [],
-        "contractor": "Geomarine",
-        "reference": "P042589-SURE1",
-        "status": "Approved",
-        "tm_type": "No Tm",
         "source": "merged"
       }
     },
@@ -4966,7 +4183,7 @@
         "bus_routes": [],
         "contractor": "Guernsey Athletics Club",
         "reference": "P042692-THS1",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -5259,7 +4476,7 @@
         "bus_routes": [],
         "contractor": "Spruce Up",
         "reference": "P042726-THS2",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -5321,35 +4538,6 @@
       },
       "properties": {
         "road": "PRINCE ALBERT ROAD",
-        "start_date": "2026-02-16",
-        "end_date": "2026-02-16",
-        "what": "Utility Works",
-        "description": "Network Inspection",
-        "bus_routes": [
-          "1B",
-          "7A",
-          "7B",
-          "LMDC",
-          "Vauvert"
-        ],
-        "contractor": "Guernsey Water (Wastewater)",
-        "reference": "P042733-GWW1",
-        "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5483228664798436,
-          49.44984494656332
-        ]
-      },
-      "properties": {
-        "road": "PRINCE ALBERT ROAD",
         "start_date": "2026-03-04",
         "end_date": "2026-03-05",
         "what": "Road Side Works",
@@ -5365,39 +4553,6 @@
         "reference": "P042736-THS1",
         "status": "Approved",
         "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.549596563407431,
-          49.45214791216756
-        ]
-      },
-      "properties": {
-        "road": "QUEENS ROAD",
-        "start_date": "2026-02-18",
-        "end_date": "2026-02-20",
-        "what": "Utility Works",
-        "description": "Reset cover",
-        "bus_routes": [
-          "1B",
-          "7A",
-          "LMDC",
-          "N4",
-          "Vauvert",
-          "60",
-          "61",
-          "71",
-          "81"
-        ],
-        "contractor": "Geomarine",
-        "reference": "P042737-SURE1",
-        "status": "Approved",
-        "tm_type": "Signing Only",
         "source": "merged"
       }
     },
@@ -5472,52 +4627,6 @@
         "contractor": "Geomarine",
         "reference": "P042740-THS3",
         "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.578025491191559,
-          49.471413485576086
-        ]
-      },
-      "properties": {
-        "road": "RUETTE DES SAUMAREZ",
-        "start_date": "2026-02-19",
-        "end_date": "2026-02-20",
-        "what": "Road Side Works",
-        "description": "Rebuilding roads side wall",
-        "bus_routes": [],
-        "contractor": "ACLMS",
-        "reference": "P042745-THS1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5549087184281145,
-          49.46388010835775
-        ]
-      },
-      "properties": {
-        "road": "RUE DU DOUIT; WATER LANES",
-        "start_date": "2026-02-06",
-        "end_date": "2026-02-19",
-        "what": "Utility Works",
-        "description": "Culvert Repairs ; Parking suspension: 3 Spaces ( on LHS ) Near Junction",
-        "bus_routes": [],
-        "contractor": "Geomarine",
-        "reference": "P042751-GWW1-D",
-        "status": "In Progress",
         "tm_type": "Road Closure",
         "source": "merged"
       }
@@ -5606,29 +4715,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.542352356323342,
-          49.45966655212744
-        ]
-      },
-      "properties": {
-        "road": "CAMBRIDGE PARK ROAD",
-        "start_date": "2026-02-10",
-        "end_date": "2026-02-17",
-        "what": "Loading / Unloading",
-        "description": "Unloading scaffolding ; Parking suspension: 6 spaces from Portland House until Portland Place",
-        "bus_routes": [],
-        "contractor": "Access Scaffolding",
-        "reference": "P042781-THS1",
-        "status": "In Progress",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.5358366904813567,
           49.46054805303558
         ]
@@ -5642,72 +4728,6 @@
         "bus_routes": [],
         "contractor": "R and R Removals",
         "reference": "P042782-THS1",
-        "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.574820663746878,
-          49.467165539747846
-        ]
-      },
-      "properties": {
-        "road": "RUETTE DU COURTIL SIMON",
-        "start_date": "2026-02-21",
-        "end_date": "2026-02-21",
-        "what": "Event",
-        "description": "Guernsey Rally 2026; Parking suspension: Whole car park",
-        "bus_routes": [],
-        "contractor": "nan",
-        "reference": "P042783-THS1",
-        "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.656213709111413,
-          49.43515064301679
-        ]
-      },
-      "properties": {
-        "road": "ROUTE DE LA LAGUE",
-        "start_date": "2026-02-21",
-        "end_date": "2026-02-21",
-        "what": "Event",
-        "description": "Guernsey Rally 2026; Parking suspension: Whole section of parking",
-        "bus_routes": [
-          "1A",
-          "1B",
-          "5A",
-          "5B",
-          "6A",
-          "6B",
-          "7A",
-          "7B",
-          "Houguette",
-          "LB",
-          "LMDC",
-          "LV",
-          "N3",
-          "61",
-          "71",
-          "91",
-          "92",
-          "93",
-          "94"
-        ],
-        "contractor": "nan",
-        "reference": "P042784-THS1",
         "status": "Approved",
         "tm_type": "Signing Only",
         "source": "merged"
@@ -5787,34 +4807,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.56138475483362,
-          49.48867110497749
-        ]
-      },
-      "properties": {
-        "road": "LA GRANDE MAISON ROAD",
-        "start_date": "2026-02-17",
-        "end_date": "2026-02-17",
-        "what": "Road Side Works",
-        "description": "tree surgery",
-        "bus_routes": [
-          "1B",
-          "8A",
-          "LV",
-          "SS"
-        ],
-        "contractor": "Treevolution",
-        "reference": "P042794-THS1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.516717168009596,
           49.48138900156671
         ]
@@ -5872,89 +4864,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.53826974765235,
-          49.457328439254894
-        ]
-      },
-      "properties": {
-        "road": "ANN'S PLACE",
-        "start_date": "2026-02-18",
-        "end_date": "2026-02-18",
-        "what": "Loading / Unloading",
-        "description": "Unloading scaffolding ; Parking suspension: 4 spaces outside OGH",
-        "bus_routes": [],
-        "contractor": "Impact Scaffolding",
-        "reference": "P042797-THS1",
-        "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.545192466108762,
-          49.459347225729026
-        ]
-      },
-      "properties": {
-        "road": "ROUGE HUIS AVENUE",
-        "start_date": "2026-02-19",
-        "end_date": "2026-02-19",
-        "what": "Loading / Unloading",
-        "description": "Granite worktop delivery; Parking suspension: 2 spaces outside Montrose",
-        "bus_routes": [],
-        "contractor": "Change of Style",
-        "reference": "P042798-THS1",
-        "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.6124977020211575,
-          49.440220542638606
-        ]
-      },
-      "properties": {
-        "road": "ROUTE DES DOMAINES; ROUTE DES FRANCES; RUE DE LA FONTAINE; RUE DE LA MARETTE; RUE DES LONGS BEAUX; RUE DU BELIAL; RUE DU GRON; RUE ST PIERRE; SSAV-MISC7; VERTE RUE",
-        "start_date": "2026-02-20",
-        "end_date": "2026-02-20",
-        "what": "Event",
-        "description": "Bruce Russel Stage - 17:45 to 22:30",
-        "bus_routes": [
-          "2A",
-          "2B",
-          "3A",
-          "3B",
-          "4B",
-          "5A",
-          "5B",
-          "HS",
-          "Houguette",
-          "LB",
-          "LBHS",
-          "LMDC",
-          "PS"
-        ],
-        "contractor": "nan",
-        "reference": "P042799-THS1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.5423323365294395,
           49.45865795084392
         ]
@@ -5978,86 +4887,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5807510547901997,
-          49.45890357834123
-        ]
-      },
-      "properties": {
-        "road": "LES BEAUCAMPS; LES VIEUX BEAUCAMPS; ROUTE DE L'EGLISE; RUE DE LA FOIRE; RUE DES VALLEES; RUE DU FRIE PLAIDY; RUE DU PREEL; RUETTE DES EFFARDS; RUETTE DES PONCHEZ",
-        "start_date": "2026-02-20",
-        "end_date": "2026-02-20",
-        "what": "Event",
-        "description": "Castel Stage - 12:00 to 16:30",
-        "bus_routes": [
-          "1A",
-          "1B",
-          "2A",
-          "2B",
-          "3A",
-          "3B",
-          "4A",
-          "4B",
-          "5A",
-          "5B",
-          "6A",
-          "6B",
-          "9B",
-          "HS",
-          "LB",
-          "LBHS",
-          "LMDC",
-          "LV",
-          "Overflow"
-        ],
-        "contractor": "nan",
-        "reference": "P042803-THS1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.585526249492864,
-          49.47075366565932
-        ]
-      },
-      "properties": {
-        "road": "LA POUQUELAH; LE DOUIT BOUDIN; ROUTE DE COBO; RUE DE LA LANDE; RUE DE LA MASSE; RUETTE DE FRIES; RUETTE DE LA GENEROTTE; RUETTE DES MAROTTES; RUETTE DES SAUMAREZ; RUETTE DU FROCQ",
-        "start_date": "2026-02-21",
-        "end_date": "2026-02-21",
-        "what": "Event",
-        "description": "Cobo Stage - 07:00 to 12:30",
-        "bus_routes": [
-          "1A",
-          "1B",
-          "3A",
-          "3B",
-          "6B",
-          "7A",
-          "7B",
-          "8A",
-          "Castel",
-          "LB",
-          "LMDC",
-          "LV",
-          "41"
-        ],
-        "contractor": "nan",
-        "reference": "P042804-THS1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.5503610050783783,
           49.45401215581222
         ]
@@ -6073,179 +4902,6 @@
         "reference": "P042805-THS1",
         "status": "Approved",
         "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.6389065855289995,
-          49.450482532705955
-        ]
-      },
-      "properties": {
-        "road": "CHEMIN LE ROI; FIEF LA COMTE; ROUTE DES PAYSANS; RUE DE LA CLAIRE MARE; RUE DE LA HOUGUETTE; RUE DE L'ARQUET; RUE DES BORDES; RUE DES JULIENNES; RUE DES MARES; RUE DES PAYSANS AU VAL; RUE DES VINAIRES; RUE DU CAMP MASSY BREHAUT; RUETTE DU FELCONTE",
-        "start_date": "2026-02-21",
-        "end_date": "2026-02-21",
-        "what": "Event",
-        "description": "Felconte Stage - 13:00 to 18:30",
-        "bus_routes": [
-          "1A",
-          "1B",
-          "2A",
-          "2B",
-          "3A",
-          "3B",
-          "4A",
-          "4B",
-          "5A",
-          "5B",
-          "6A",
-          "6B",
-          "9B",
-          "Houguette",
-          "LB",
-          "LMDC",
-          "LV",
-          "N3",
-          "60",
-          "61",
-          "71",
-          "93",
-          "94"
-        ],
-        "contractor": "nan",
-        "reference": "P042806-THS1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.6197721804135887,
-          49.425227360776624
-        ]
-      },
-      "properties": {
-        "road": "LES REINES; ROUTE DE LA PALLOTERIE; ROUTE DE PLEINMONT; ROUTE DES LAURENS; RUE DE LA PREVOTE; RUE DES CORBINETS; RUE DES LAURENS; RUE DES MENAGES; RUE DES PELTIERS; RUE DES REINES; RUE DU COEMIL; RUE DU MANOIR",
-        "start_date": "2026-02-20",
-        "end_date": "2026-02-20",
-        "what": "Event",
-        "description": "Prevote Stage - 17:45 to 22:30",
-        "bus_routes": [
-          "1A",
-          "2A",
-          "2B",
-          "3A",
-          "3B",
-          "4A",
-          "4B",
-          "5A",
-          "5B",
-          "6A",
-          "6B",
-          "9B",
-          "HS",
-          "Houguette",
-          "LB",
-          "LMDC",
-          "LV",
-          "PS"
-        ],
-        "contractor": "nan",
-        "reference": "P042807-THS1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.651164635253829,
-          49.43455815317045
-        ]
-      },
-      "properties": {
-        "road": "ROUTE DE LA LAGUE; RUE DE LA CROUTE; RUE DES CAMBREES; RUE DES CLERCS; RUE DU CAMPERE; RUE DU GAINS; RUE DU HUREL",
-        "start_date": "2026-02-21",
-        "end_date": "2026-02-21",
-        "what": "Event",
-        "description": "Rocquaine Stage - 13:00 to 18:30",
-        "bus_routes": [
-          "1A",
-          "1B",
-          "2A",
-          "2B",
-          "5A",
-          "5B",
-          "6A",
-          "6B",
-          "Forest",
-          "HS",
-          "Houguette",
-          "LB",
-          "LMDC",
-          "LV",
-          "Overflow",
-          "PS"
-        ],
-        "contractor": "nan",
-        "reference": "P042808-THS1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.581970208661634,
-          49.44375499497516
-        ]
-      },
-      "properties": {
-        "road": "CANDIE ROAD; CHEMIN LE ROI; LA MARE; LES FRIQUETS; LES NIAUX; ROUTE DE ST. ANDRE; ROUTE DES BLICQS; ROUTE DES TALBOTS; RUE DES BUTTES; RUE DES HOUGUES; RUE DES ROQUETTES; RUE SANS NOM",
-        "start_date": "2026-02-21",
-        "end_date": "2026-02-21",
-        "what": "Event",
-        "description": "Talbot Stage - 07:00 to 12:30",
-        "bus_routes": [
-          "1A",
-          "1B",
-          "2A",
-          "2B",
-          "3A",
-          "3B",
-          "4B",
-          "5A",
-          "5B",
-          "6A",
-          "6B",
-          "9B",
-          "Forest",
-          "HS",
-          "LB",
-          "LBHS",
-          "LV",
-          "Martin",
-          "PS",
-          "St"
-        ],
-        "contractor": "nan",
-        "reference": "P042809-THS1",
-        "status": "Approved",
-        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -6336,7 +4992,7 @@
         "bus_routes": [],
         "contractor": "ST. ANDREW",
         "reference": "P042816-THS1",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -6382,7 +5038,7 @@
         "bus_routes": [],
         "contractor": "THS - Highways",
         "reference": "P042823-THS4",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -6405,7 +5061,7 @@
         "bus_routes": [],
         "contractor": "Guernsey Electricity",
         "reference": "P042824-GE1",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -6428,7 +5084,7 @@
         "bus_routes": [],
         "contractor": "NSP Foundations",
         "reference": "P042827-THS2",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -6507,29 +5163,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5460877347930073,
-          49.4583511898076
-        ]
-      },
-      "properties": {
-        "road": "BROCK ROAD",
-        "start_date": "2026-02-19",
-        "end_date": "2026-02-19",
-        "what": "Loading / Unloading",
-        "description": "Furniture delivery; Parking suspension: 2 spaces outside Armaine",
-        "bus_routes": [],
-        "contractor": "Private Individual",
-        "reference": "P042834-THS1",
-        "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.54109920550204,
           49.432009040628735
         ]
@@ -6543,30 +5176,7 @@
         "bus_routes": [],
         "contractor": "Guernsey Gas",
         "reference": "P042836-GG1",
-        "status": "Pending",
-        "tm_type": "",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5596989087208453,
-          49.48870222207494
-        ]
-      },
-      "properties": {
-        "road": "VALE - LA GRANDE MAISON ROAD",
-        "start_date": "2026-02-17",
-        "end_date": "2026-02-17",
-        "what": "Road Side Works",
-        "description": "Works",
-        "bus_routes": [],
-        "contractor": "Treevolution",
-        "reference": "P042837-THS1",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -6589,7 +5199,7 @@
         "bus_routes": [],
         "contractor": "Treevolution",
         "reference": "P042839-THS2",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -6704,7 +5314,7 @@
         "bus_routes": [],
         "contractor": "R and R Removals",
         "reference": "P042849-THS2",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -6727,53 +5337,7 @@
         "bus_routes": [],
         "contractor": "Guernsey Electricity",
         "reference": "P042852-GE1",
-        "status": "Pending",
-        "tm_type": "",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5278704683565354,
-          49.47513671969928
-        ]
-      },
-      "properties": {
-        "road": "ST. SAMPSON - LES BAS COURTILS ROAD",
-        "start_date": "2026-02-23",
-        "end_date": "2026-02-23",
-        "what": "Minor Highway Works",
-        "description": "Works",
-        "bus_routes": [],
-        "contractor": "Traffic and Highway Services (Highways Inspector)",
-        "reference": "P042857-THS3",
-        "status": "Pending",
-        "tm_type": "",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.53382881010574,
-          49.47122586913262
-        ]
-      },
-      "properties": {
-        "road": "ST. PETER PORT - LES BANQUES",
-        "start_date": "2026-02-17",
-        "end_date": "2026-02-17",
-        "what": "Minor Highway Works",
-        "description": "Works",
-        "bus_routes": [],
-        "contractor": "Traffic and Highway Services (Highways Inspector)",
-        "reference": "P042858-THS3",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -6835,60 +5399,14 @@
       },
       "properties": {
         "road": "ST. PETER PORT - NORTH PLANTATION",
-        "start_date": "2026-03-20",
-        "end_date": "2026-03-20",
+        "start_date": "2026-03-02",
+        "end_date": "2026-03-02",
         "what": "Road Side Works",
         "description": "Works",
         "bus_routes": [],
         "contractor": "ACLMS",
         "reference": "P042861-THS2",
-        "status": "Pending",
-        "tm_type": "",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.536546930974977,
-          49.4546181060413
-        ]
-      },
-      "properties": {
-        "road": "CHURCH SQUARE",
-        "start_date": "2026-02-20",
-        "end_date": "2026-02-20",
-        "what": "Building Maintenance",
-        "description": "Replacing gutter down pipe; Parking suspension: 1 space along aside Church doors.",
-        "bus_routes": [],
-        "contractor": "F Watson and Son",
-        "reference": "P042862-THS1",
         "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.549596563407431,
-          49.45214791216756
-        ]
-      },
-      "properties": {
-        "road": "ST. PETER PORT - QUEENS ROAD",
-        "start_date": "2026-02-18",
-        "end_date": "2026-02-20",
-        "what": "Road Side Works",
-        "description": "Works",
-        "bus_routes": [],
-        "contractor": "Barrett Landscapes Ltd",
-        "reference": "P042865-THS2",
-        "status": "Pending",
         "tm_type": "",
         "source": "merged"
       }
@@ -6911,7 +5429,7 @@
         "bus_routes": [],
         "contractor": "Guernsey Electricity",
         "reference": "P042866-GE1",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -6950,14 +5468,14 @@
       },
       "properties": {
         "road": "ST. PETER PORT - BOSQ LANE",
-        "start_date": "2026-02-20",
+        "start_date": "2026-02-21",
         "end_date": "2026-05-29",
         "what": "Scaffolding",
         "description": "Works",
         "bus_routes": [],
         "contractor": "Impact Scaffolding",
         "reference": "P042868-THS2",
-        "status": "Pending",
+        "status": "In Progress",
         "tm_type": "",
         "source": "merged"
       }
@@ -6980,7 +5498,7 @@
         "bus_routes": [],
         "contractor": "Diamond Group Ltd",
         "reference": "P042869-THS2",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -7003,7 +5521,7 @@
         "bus_routes": [],
         "contractor": "R and R Removals",
         "reference": "P042872-THS2",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -7036,26 +5554,509 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.540787663225273,
-          49.45197990920936
+          -2.507589661652792,
+          49.49602517978974
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - TRINITY SQUARE",
-        "start_date": "2026-02-20",
-        "end_date": "2026-02-20",
+        "road": "VALE - LA ROCHELLE ROAD",
+        "start_date": "2026-05-13",
+        "end_date": "2026-05-14",
         "what": "Utility Works",
         "description": "Works",
         "bus_routes": [],
-        "contractor": "JT Guernsey",
-        "reference": "P042895-JT1",
+        "contractor": "Guernsey Electricity",
+        "reference": "P042891-GE1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5412288954024973,
+          49.45561646795788
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - HAVILLAND STREET",
+        "start_date": "2026-05-05",
+        "end_date": "2026-05-05",
+        "what": "Building Maintenance",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "AFM",
+        "reference": "P042899-THS2",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.542217509208549,
+          49.44311034722125
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - CROUTES HAVILLAND",
+        "start_date": "2026-03-02",
+        "end_date": "2026-03-04",
+        "what": "Loading / Unloading",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Private Individual",
+        "reference": "P042900-THS2",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5366718062080014,
+          49.472986165673206
+        ]
+      },
+      "properties": {
+        "road": "ST. SAMPSON - VICTORIA AVENUE",
+        "start_date": "2026-03-07",
+        "end_date": "2026-03-07",
+        "what": "Event",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Football Association",
+        "reference": "P042907-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.543662578475411,
+          49.45442845942573
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - CORDIER HILL",
+        "start_date": "2026-02-23",
+        "end_date": "2026-02-23",
+        "what": "Lifting Operations",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "J W Rihoy Builders",
+        "reference": "P042915-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.543662578475411,
+          49.45442845942573
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - CORDIER HILL",
+        "start_date": "2026-02-25",
+        "end_date": "2026-02-25",
+        "what": "Lifting Operations",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "J W Rihoy Builders",
+        "reference": "P042917-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.584929173472771,
+          49.466176417589125
+        ]
+      },
+      "properties": {
+        "road": "CASTEL - MONT D`AVAL",
+        "start_date": "2026-04-08",
+        "end_date": "2026-04-10",
+        "what": "Road Side Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Arbology",
+        "reference": "P042919-THS2",
         "status": "Pending",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5512719571668394,
+          49.44839795117054
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - AVENUE DU MANOIR",
+        "start_date": "2026-03-02",
+        "end_date": "2026-03-09",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Gas",
+        "reference": "P042929-GG1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5525399235230743,
+          49.46359883765537
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - COLLINGS ROAD",
+        "start_date": "2026-04-21",
+        "end_date": "2026-04-23",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Electricity",
+        "reference": "P042941-GE1",
+        "status": "Pending",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6500709899179675,
+          49.43464678729957
+        ]
+      },
+      "properties": {
+        "road": "ST. PIERRE DU BOIS - RUE DE ST. BRIOCQ",
+        "start_date": "2026-02-18",
+        "end_date": "2026-03-02",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Water (Wastewater)",
+        "reference": "P042944-GWW1-D",
+        "status": "In Progress",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.545712475716566,
+          49.45506751865953
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - LA COUPERDERIE",
+        "start_date": "2026-02-25",
+        "end_date": "2026-02-25",
+        "what": "Loading / Unloading",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Change of Style",
+        "reference": "P042948-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.577948129468638,
+          49.47725764506096
+        ]
+      },
+      "properties": {
+        "road": "CASTEL - ROUTE DE LA HOUGUE DU POMMIER",
+        "start_date": "2026-02-19",
+        "end_date": "2026-02-26",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Electricity",
+        "reference": "P042950-GE1",
+        "status": "In Progress",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.574958176826229,
+          49.4489801186834
+        ]
+      },
+      "properties": {
+        "road": "ST. ANDREW - ROUTE DES TALBOTS",
+        "start_date": "2026-02-25",
+        "end_date": "2026-06-23",
+        "what": "Scaffolding",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Scaffolding Services",
+        "reference": "P042961-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.537029201552401,
+          49.45332455300728
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - LOWER HAUTEVILLE",
+        "start_date": "2026-02-23",
+        "end_date": "2026-02-23",
+        "what": "Road Side Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "RW Randall",
+        "reference": "P042972-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.6482430312152685,
+          49.45378212641588
+        ]
+      },
+      "properties": {
+        "road": "ST. PIERRE DU BOIS - ROUTE DES ADAMS",
+        "start_date": "2026-03-30",
+        "end_date": "2026-04-02",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Sure",
+        "reference": "P042973-SURE1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5359037932793616,
+          49.457423460372326
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - LE POLLET",
+        "start_date": "2026-02-24",
+        "end_date": "2026-03-24",
+        "what": "Scaffolding",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Scaffolding Services",
+        "reference": "P042976-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.536421251260508,
+          49.45489694195194
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - CHURCH SQUARE",
+        "start_date": "2026-02-24",
+        "end_date": "2026-04-24",
+        "what": "Scaffolding",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Scaffolding Services",
+        "reference": "P042977-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.539922861445282,
+          49.44816114987483
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - GEORGE ROAD",
+        "start_date": "2026-04-09",
+        "end_date": "2026-04-09",
+        "what": "Lifting Operations",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Loop Ltd",
+        "reference": "P042978-THS1",
+        "status": "Pending",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.538189744600214,
+          49.45142249569233
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - HAUTEVILLE",
+        "start_date": "2026-03-06",
+        "end_date": "2026-03-06",
+        "what": "Building Maintenance",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Oasis Plumbing",
+        "reference": "P042983-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5448714954067815,
+          49.46058113047237
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - CORONATION ROAD",
+        "start_date": "2026-02-25",
+        "end_date": "2026-02-25",
+        "what": "Loading / Unloading",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Scaffolding Services",
+        "reference": "P042990-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.545192466108762,
+          49.459347225729026
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - ROUGE HUIS AVENUE",
+        "start_date": "2026-02-24",
+        "end_date": "2026-02-25",
+        "what": "Loading / Unloading",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Private Individual",
+        "reference": "P042991-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.519180444047859,
+          49.48042421306078
+        ]
+      },
+      "properties": {
+        "road": "ST. SAMPSON - CHURCH ROAD",
+        "start_date": "2026-02-26",
+        "end_date": "2026-02-28",
+        "what": "Loading / Unloading",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Impact Scaffolding",
+        "reference": "P042992-THS1",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
     }
   ],
   "metadata": {
-    "built_at": "2026-02-16T11:18:21Z"
+    "built_at": "2026-02-23T06:56:27Z"
   }
 }
