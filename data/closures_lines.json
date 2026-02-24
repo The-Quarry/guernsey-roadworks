@@ -3609,16 +3609,16 @@
         ]
       },
       "properties": {
-        "road": "ST. MARTIN - RUE DES MARETTES",
+        "road": "ICART ROAD; RUE DES MARETTES",
         "start_date": "2026-05-18",
         "end_date": "2026-06-05",
         "what": "Major Highway Works",
-        "description": "Works",
+        "description": "Road resurfacing",
         "bus_routes": [],
-        "contractor": "THS - Highways",
+        "contractor": "Ronez (Patching)",
         "reference": "P035100-THS4",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -4321,7 +4321,7 @@
       },
       "properties": {
         "road": "LES ROHAIS DE HAUT; ROHAIS DE HAUT; RUE DES TRUCHOTS",
-        "start_date": "2026-02-17",
+        "start_date": "2026-03-17",
         "end_date": "2026-04-17",
         "what": "Major Highway Works",
         "description": "Road resurfacing; Parking suspension: all on street parking",
@@ -4908,7 +4908,7 @@
         "bus_routes": [],
         "contractor": "Ronez (Patching)",
         "reference": "P035366-THS4",
-        "status": "Approved",
+        "status": "In Progress",
         "tm_type": "Road Closure",
         "source": "merged"
       }
@@ -14337,202 +14337,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -2.555780324717543,
-            49.44597474356485
-          ],
-          [
-            -2.5557802489258994,
-            49.44597476253787
-          ],
-          [
-            -2.555740712269366,
-            49.44598431394525
-          ],
-          [
-            -2.5556885112680043,
-            49.44599695560498
-          ],
-          [
-            -2.555591841444938,
-            49.44601595360268
-          ],
-          [
-            -2.5555905183396104,
-            49.44601621594114
-          ],
-          [
-            -2.555586686364869,
-            49.44601680498185
-          ],
-          [
-            -2.5554909571914,
-            49.44603149400883
-          ],
-          [
-            -2.5553900172378743,
-            49.44604246678725
-          ],
-          [
-            -2.5553589449572445,
-            49.44604669582071
-          ],
-          [
-            -2.555288973710006,
-            49.44605633751422
-          ],
-          [
-            -2.555188501703359,
-            49.44607191402679
-          ],
-          [
-            -2.555088627236998,
-            49.446089135154175
-          ],
-          [
-            -2.5550033261747847,
-            49.44610541265566
-          ],
-          [
-            -2.554989551699422,
-            49.4461080231354
-          ],
-          [
-            -2.5549137715396486,
-            49.44612440157536
-          ],
-          [
-            -2.554866023479748,
-            49.446136722843306
-          ],
-          [
-            -2.5548395381199773,
-            49.44614356094097
-          ],
-          [
-            -2.554767176791777,
-            49.44616547117514
-          ],
-          [
-            -2.5546967186820515,
-            49.44618992544322
-          ],
-          [
-            -2.5546642789035827,
-            49.44620322459862
-          ],
-          [
-            -2.5546319260556714,
-            49.446216548817006
-          ],
-          [
-            -2.554624157659812,
-            49.44621983992676
-          ],
-          [
-            -2.554599847076327,
-            49.44623017301079
-          ],
-          [
-            -2.5545679824357994,
-            49.446244014530755
-          ],
-          [
-            -2.554556932344528,
-            49.44624891090842
-          ],
-          [
-            -2.5545147042736724,
-            49.44626762908986
-          ],
-          [
-            -2.5544620771413946,
-            49.44629180211066
-          ],
-          [
-            -2.554444063626789,
-            49.44630036535436
-          ],
-          [
-            -2.5544100888109043,
-            49.44631659924546
-          ],
-          [
-            -2.5543585153651462,
-            49.44634183643906
-          ],
-          [
-            -2.5541718654728784,
-            49.44642316767756
-          ],
-          [
-            -2.5541420816259257,
-            49.44643556529224
-          ],
-          [
-            -2.5541157014475866,
-            49.44644657778274
-          ],
-          [
-            -2.554100196759015,
-            49.44645236236111
-          ],
-          [
-            -2.554057869211519,
-            49.44646817718603
-          ],
-          [
-            -2.5539982285515572,
-            49.44648763067401
-          ],
-          [
-            -2.5539371191204707,
-            49.44650508439978
-          ],
-          [
-            -2.553921542496526,
-            49.44650536813121
-          ],
-          [
-            -2.5538970027854724,
-            49.44650584771778
-          ],
-          [
-            -2.5538573994698957,
-            49.4465016777584
-          ],
-          [
-            -2.5538196994990985,
-            49.44649266818174
-          ]
-        ]
-      },
-      "properties": {
-        "road": "LES OBERLANDS",
-        "start_date": "2026-02-09",
-        "end_date": "2026-02-24",
-        "what": "Utility Works",
-        "description": "Low voltage cable upgrade",
-        "bus_routes": [
-          "P2",
-          "51",
-          "52",
-          "60",
-          "71",
-          "81"
-        ],
-        "contractor": "Trant",
-        "reference": "P039750-GE1",
-        "status": "In Progress",
-        "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -2.5202691646100304,
             49.48177907052776
           ],
@@ -19331,6 +19135,83 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.5363253376923836,
+            49.45509835599821
+          ],
+          [
+            -2.5363237688635842,
+            49.4550091545742
+          ],
+          [
+            -2.536326162644326,
+            49.45499530543975
+          ],
+          [
+            -2.5363300601835546,
+            49.45498160760216
+          ],
+          [
+            -2.5363472012337533,
+            49.4549406702948
+          ],
+          [
+            -2.5363486718245594,
+            49.45493852883505
+          ],
+          [
+            -2.5363738784516787,
+            49.45490200691476
+          ],
+          [
+            -2.5364095146794963,
+            49.45486649920397
+          ],
+          [
+            -2.5364333890332698,
+            49.45484929204055
+          ],
+          [
+            -2.536453132849773,
+            49.454835056291095
+          ],
+          [
+            -2.5364919184284487,
+            49.45481281650566
+          ],
+          [
+            -2.536533467864691,
+            49.45479278571162
+          ],
+          [
+            -2.536577436787136,
+            49.45477514408982
+          ],
+          [
+            -2.5366235771104604,
+            49.454759963825495
+          ]
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - CHURCH SQUARE",
+        "start_date": "2025-10-02",
+        "end_date": "2026-04-30",
+        "what": "Hoardings",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "F Watson and Son",
+        "reference": "P040655-THS1",
+        "status": "In Progress",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "MultiLineString",
         "coordinates": [
           [
@@ -20426,16 +20307,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - UNION STREET",
+        "road": "UNION STREET",
         "start_date": "2025-10-17",
         "end_date": "2026-03-31",
         "what": "Scaffolding",
-        "description": "Works",
+        "description": "Scaffolding; Property: Maison Ville; Purpose: Roofing Works; Parking suspension: 3 spaces outside Maison Ville",
         "bus_routes": [],
         "contractor": "Island Scaffolding",
         "reference": "P040770-THS2",
         "status": "In Progress",
-        "tm_type": "",
+        "tm_type": "Lanes Reduced",
         "source": "merged"
       }
     },
@@ -24174,16 +24055,20 @@
         ]
       },
       "properties": {
-        "road": "CASTEL - RUE A RONCES",
+        "road": "PORT SOIF LANE; RUE A RONCES",
         "start_date": "2026-05-17",
         "end_date": "2026-05-17",
         "what": "Event",
-        "description": "Works",
-        "bus_routes": [],
-        "contractor": "race for life",
+        "description": "Charity race between 10:30am and 1:00pm",
+        "bus_routes": [
+          "7A",
+          "LMDC",
+          "41"
+        ],
+        "contractor": "nan",
         "reference": "P041486-THS1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -45324,6 +45209,183 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -2.57752282936302,
+              49.4447996741563
+            ],
+            [
+              -2.577433216167573,
+              49.44480580498305
+            ],
+            [
+              -2.57734601728781,
+              49.444812283049004
+            ],
+            [
+              -2.5772588335547657,
+              49.44481918362182
+            ],
+            [
+              -2.577188256299022,
+              49.444831428920125
+            ],
+            [
+              -2.577119900056355,
+              49.44484817576271
+            ],
+            [
+              -2.5770544123096206,
+              49.44486923443703
+            ],
+            [
+              -2.5769923853278587,
+              49.44489439732582
+            ],
+            [
+              -2.5768993418021804,
+              49.444935472897434
+            ],
+            [
+              -2.5768066580591618,
+              49.44497697948072
+            ],
+            [
+              -2.5767144167771967,
+              49.44501889897932
+            ],
+            [
+              -2.576622659382724,
+              49.44506124931978
+            ],
+            [
+              -2.5765464448499635,
+              49.44509570167569
+            ],
+            [
+              -2.5763052536514963,
+              49.44520385916097
+            ],
+            [
+              -2.576199073253451,
+              49.44525103944524
+            ],
+            [
+              -2.576111390027542,
+              49.44528705384502
+            ],
+            [
+              -2.5760499520244466,
+              49.4453112982961
+            ]
+          ],
+          [
+            [
+              -2.5795597354787696,
+              49.44418705648929
+            ],
+            [
+              -2.579316134880187,
+              49.44427633283013
+            ],
+            [
+              -2.5791133845731173,
+              49.44435918540597
+            ],
+            [
+              -2.578989596526919,
+              49.44440551183799
+            ],
+            [
+              -2.578865254706994,
+              49.44445124548422
+            ],
+            [
+              -2.578740331151884,
+              49.44449626949447
+            ],
+            [
+              -2.5786148675006855,
+              49.44454066473086
+            ],
+            [
+              -2.5785324918386565,
+              49.44457112587351
+            ],
+            [
+              -2.5784495346033642,
+              49.444600886445116
+            ],
+            [
+              -2.578365968217973,
+              49.44462994648302
+            ],
+            [
+              -2.578336029424093,
+              49.44464000740403
+            ],
+            [
+              -2.578281819998327,
+              49.44465822502551
+            ],
+            [
+              -2.578175651794041,
+              49.4446913895907
+            ],
+            [
+              -2.578066726055362,
+              49.444720520788124
+            ],
+            [
+              -2.577955414770842,
+              49.444745510195006
+            ],
+            [
+              -2.5778420348911832,
+              49.444766285431996
+            ],
+            [
+              -2.577783827272762,
+              49.44477433287512
+            ],
+            [
+              -2.577725410640332,
+              49.44478172421111
+            ],
+            [
+              -2.577666770794341,
+              49.44478833358043
+            ],
+            [
+              -2.5776079219391286,
+              49.44479428684197
+            ],
+            [
+              -2.57752282936302,
+              49.4447996741563
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "road": "ST. ANDREW - ROUTE DE ST. ANDRE",
+        "start_date": "2026-05-25",
+        "end_date": "2026-05-28",
+        "what": "Minor Highway Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Traffic and Highway Services (Highways Inspector)",
+        "reference": "P042426-THS3-D",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -46295,16 +46357,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - ST. JOHN STREET",
+        "road": "ST. JOHN STREET",
         "start_date": "2026-01-21",
         "end_date": "2026-02-27",
         "what": "Scaffolding",
-        "description": "Works",
+        "description": "Scaffolding ; Property: Kenton House; Purpose: Roofing Works; Parking suspension: 2 spaces outside Kenton House",
         "bus_routes": [],
         "contractor": "Apex Scaffold",
         "reference": "P042441-THS2",
         "status": "In Progress",
-        "tm_type": "",
+        "tm_type": "Lanes Reduced",
         "source": "merged"
       }
     },
@@ -46788,16 +46850,16 @@
         ]
       },
       "properties": {
-        "road": "ST. SAMPSON - THE BRIDGE",
+        "road": "THE BRIDGE",
         "start_date": "2026-05-16",
         "end_date": "2026-05-16",
         "what": "Road Side Works",
-        "description": "Works",
+        "description": "Parish Surgery  ; Parking suspension:",
         "bus_routes": [],
         "contractor": "St Sampson Douzaine",
         "reference": "P042463-THS1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "No Tm",
         "source": "merged"
       }
     },
@@ -47478,7 +47540,7 @@
         ],
         "contractor": "Granite Le Pelley",
         "reference": "P042465-THS2",
-        "status": "Approved",
+        "status": "In Progress",
         "tm_type": "Give/Take",
         "source": "merged"
       }
@@ -51185,8 +51247,8 @@
       },
       "properties": {
         "road": "LES CANICHERS",
-        "start_date": "2026-03-23",
-        "end_date": "2026-03-25",
+        "start_date": "2026-04-06",
+        "end_date": "2026-04-08",
         "what": "Utility Works",
         "description": "Install new water service; Parking suspension: Plan to be sent in due course",
         "bus_routes": [],
@@ -56612,7 +56674,7 @@
         ],
         "contractor": "Paul Bonnel Stonemasons",
         "reference": "P042576-THS2",
-        "status": "Approved",
+        "status": "In Progress",
         "tm_type": "Road Closure",
         "source": "merged"
       }
@@ -59486,8 +59548,8 @@
       },
       "properties": {
         "road": "LA RUE MAZE; LONGUE RUE",
-        "start_date": "2026-04-07",
-        "end_date": "2026-04-08",
+        "start_date": "2026-04-09",
+        "end_date": "2026-04-10",
         "what": "Utility Works",
         "description": "New joint box in pavement over buried coupling.",
         "bus_routes": [
@@ -61889,16 +61951,19 @@
         ]
       },
       "properties": {
-        "road": "VALE - NORTH SIDE",
+        "road": "NORTH SIDE",
         "start_date": "2026-04-06",
         "end_date": "2026-04-06",
         "what": "Event",
-        "description": "Works",
-        "bus_routes": [],
-        "contractor": "Guernsey Athletics Club",
+        "description": "Road closed until 12pm - between junctions; Parking suspension: all along the Quay",
+        "bus_routes": [
+          "N1",
+          "13"
+        ],
+        "contractor": "nan",
         "reference": "P042692-THS1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -63804,16 +63869,27 @@
         ]
       },
       "properties": {
-        "road": "ST. MARTIN - LES FRIETEAUX",
+        "road": "LES FRIETEAUX; RUE POUDREUSE",
         "start_date": "2026-04-07",
         "end_date": "2026-04-08",
         "what": "Road Side Works",
-        "description": "Works",
-        "bus_routes": [],
+        "description": "Tree surgery",
+        "bus_routes": [
+          "1A",
+          "2A",
+          "2B",
+          "3A",
+          "3B",
+          "4A",
+          "9B",
+          "LB",
+          "LV",
+          "81"
+        ],
         "contractor": "Spruce Up",
         "reference": "P042726-THS2",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -63887,63 +63963,6 @@
         "reference": "P042730-GE1",
         "status": "Approved",
         "tm_type": "Road Closure",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
-            -2.5342258914665137,
-            49.45964678741639
-          ],
-          [
-            -2.534301099004643,
-            49.45966543089946
-          ],
-          [
-            -2.5344675366970626,
-            49.45971169273023
-          ],
-          [
-            -2.53456409671733,
-            49.45973579900393
-          ],
-          [
-            -2.5346621124648014,
-            49.45975718833059
-          ],
-          [
-            -2.5347614597368984,
-            49.459775842850725
-          ],
-          [
-            -2.534861945317465,
-            49.459791726792936
-          ],
-          [
-            -2.535039689311615,
-            49.45981271960302
-          ],
-          [
-            -2.535108428527455,
-            49.45982125753208
-          ]
-        ]
-      },
-      "properties": {
-        "road": "BOSQ LANE",
-        "start_date": "2026-02-23",
-        "end_date": "2026-02-23",
-        "what": "Lifting Operations",
-        "description": "Cherry Picker works",
-        "bus_routes": [],
-        "contractor": "Sure Guernsey",
-        "reference": "P042731-SURE1",
-        "status": "Approved",
-        "tm_type": "One Way (All Vehicles)",
         "source": "merged"
       }
     },
@@ -65098,6 +65117,229 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -2.554604490213635,
+              49.463297974266474
+            ],
+            [
+              -2.5546158746798096,
+              49.46332384671225
+            ],
+            [
+              -2.554647668539932,
+              49.463440525169254
+            ],
+            [
+              -2.554656987426446,
+              49.46348831462866
+            ],
+            [
+              -2.554689168376884,
+              49.463653345251466
+            ],
+            [
+              -2.5547113901657257,
+              49.463795039977086
+            ],
+            [
+              -2.5547197903676375,
+              49.46384869916178
+            ],
+            [
+              -2.5547257924065456,
+              49.46387857915727
+            ],
+            [
+              -2.554740608902401,
+              49.46395242519343
+            ],
+            [
+              -2.554762903744885,
+              49.46404147561739
+            ]
+          ],
+          [
+            [
+              -2.5569078622247994,
+              49.46356143757537
+            ],
+            [
+              -2.556772934165446,
+              49.46360040764545
+            ],
+            [
+              -2.556638380174355,
+              49.46364001548915
+            ],
+            [
+              -2.5565042001192464,
+              49.46368021615128
+            ],
+            [
+              -2.556370518151173,
+              49.46372100948318
+            ],
+            [
+              -2.5561638310762995,
+              49.46378557387561
+            ],
+            [
+              -2.556049795725286,
+              49.46381770247801
+            ],
+            [
+              -2.5559338618713987,
+              49.46384685712555
+            ],
+            [
+              -2.555816236024856,
+              49.46387288471155
+            ],
+            [
+              -2.555697056257589,
+              49.46389582103029
+            ],
+            [
+              -2.5556367270956852,
+              49.463904426295294
+            ],
+            [
+              -2.555575687324572,
+              49.463910541785566
+            ],
+            [
+              -2.5555141577755487,
+              49.463914203200225
+            ],
+            [
+              -2.5554524555152063,
+              49.46391532923622
+            ],
+            [
+              -2.555406338580541,
+              49.463915348596046
+            ],
+            [
+              -2.555360208535979,
+              49.46391561071891
+            ],
+            [
+              -2.55531407950571,
+              49.46391623247514
+            ],
+            [
+              -2.5552680063391806,
+              49.46391709691174
+            ],
+            [
+              -2.5552514685401544,
+              49.46391798888576
+            ],
+            [
+              -2.555235529302917,
+              49.463920786300875
+            ],
+            [
+              -2.555220505582242,
+              49.46392537189056
+            ],
+            [
+              -2.5552070040546537,
+              49.46393163703256
+            ],
+            [
+              -2.5551555917445836,
+              49.46395192907776
+            ],
+            [
+              -2.5550932107835442,
+              49.463976586027876
+            ],
+            [
+              -2.5550488403862217,
+              49.46398938881671
+            ],
+            [
+              -2.5550037631517344,
+              49.464001032553135
+            ],
+            [
+              -2.5549579375204736,
+              49.46401145434684
+            ],
+            [
+              -2.5549115151905735,
+              49.464020636032835
+            ],
+            [
+              -2.554858836795436,
+              49.46402737953483
+            ],
+            [
+              -2.5548063119769293,
+              49.464034779195984
+            ],
+            [
+              -2.554762903744885,
+              49.46404147561739
+            ]
+          ],
+          [
+            [
+              -2.554762903744885,
+              49.46404147561739
+            ],
+            [
+              -2.5547540097589163,
+              49.464042852916776
+            ],
+            [
+              -2.5547019851934447,
+              49.464051555675184
+            ],
+            [
+              -2.554617953651223,
+              49.46406436965726
+            ],
+            [
+              -2.5544281309273313,
+              49.46409328720645
+            ],
+            [
+              -2.5543286970945758,
+              49.464108609918
+            ],
+            [
+              -2.5542283451712664,
+              49.464121236239
+            ],
+            [
+              -2.554127281974059,
+              49.464131120964645
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "road": "RUE DU DOUIT; WATER LANES",
+        "start_date": "2026-02-06",
+        "end_date": "2026-02-25",
+        "what": "Utility Works",
+        "description": "Culvert Repairs ; Parking suspension: 3 Spaces ( on LHS ) Near Junction",
+        "bus_routes": [],
+        "contractor": "Geomarine",
+        "reference": "P042751-GWW1-D",
+        "status": "In Progress",
+        "tm_type": "Road Closure",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -65354,7 +65596,7 @@
         "bus_routes": [],
         "contractor": "Total Design Shopfitting",
         "reference": "P042775-THS1",
-        "status": "Approved",
+        "status": "In Progress",
         "tm_type": "Signing Only",
         "source": "merged"
       }
@@ -66068,11 +66310,11 @@
         "start_date": "2026-02-15",
         "end_date": "2026-03-10",
         "what": "Building Maintenance",
-        "description": "Renovation works ; Parking suspension: 4 spaces between yellow hatch until unloading bay outside Addison’s",
+        "description": "Renovation works ; Parking suspension: 4 spaces between yellow hatch until unloading bay outside AddisonÆs",
         "bus_routes": [],
         "contractor": "Concept 360",
         "reference": "P042796-THS1",
-        "status": "Approved",
+        "status": "In Progress",
         "tm_type": "Signing Only",
         "source": "merged"
       }
@@ -67868,16 +68110,35 @@
         ]
       },
       "properties": {
-        "road": "ST. ANDREW - ROUTE DE ST. ANDRE",
+        "road": "ROUTE DE ST. ANDRE; RUE DES BUTTES; RUE FRAIRIES",
         "start_date": "2026-05-09",
         "end_date": "2026-05-09",
         "what": "Event",
-        "description": "Works",
-        "bus_routes": [],
-        "contractor": "ST. ANDREW",
+        "description": "Closure between 11:30am to 3:00pm",
+        "bus_routes": [
+          "1A",
+          "1B",
+          "2A",
+          "2B",
+          "4A",
+          "5A",
+          "5B",
+          "6A",
+          "6B",
+          "Forest",
+          "Houguetteuette",
+          "LB",
+          "LV",
+          "Martin",
+          "N4",
+          "Overflow",
+          "St",
+          "71"
+        ],
+        "contractor": "nan",
         "reference": "P042816-THS1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -70068,16 +70329,22 @@
         ]
       },
       "properties": {
-        "road": "ST. MARTIN - RUE DES MARETTES",
+        "road": "ICART ROAD; RUE DES MARETTES",
         "start_date": "2026-03-09",
         "end_date": "2026-03-11",
         "what": "Major Highway Works",
-        "description": "Works",
-        "bus_routes": [],
-        "contractor": "THS - Highways",
+        "description": "Junction resurfacing",
+        "bus_routes": [
+          "4A",
+          "4B",
+          "LB",
+          "LV",
+          "81"
+        ],
+        "contractor": "Ronez (Patching)",
         "reference": "P042823-THS4",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -70109,16 +70376,25 @@
         ]
       },
       "properties": {
-        "road": "VALE - SOHIER ROAD",
+        "road": "SOHIER ROAD",
         "start_date": "2026-04-15",
         "end_date": "2026-04-16",
         "what": "Utility Works",
-        "description": "Works",
-        "bus_routes": [],
+        "description": "Relacing damaged streetlight",
+        "bus_routes": [
+          "2B",
+          "5A",
+          "5B",
+          "LV",
+          "P2",
+          "SS",
+          "11",
+          "12"
+        ],
         "contractor": "Guernsey Electricity",
         "reference": "P042824-GE1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -70182,16 +70458,16 @@
         ]
       },
       "properties": {
-        "road": "CASTEL - KING`S MILLS ROAD",
+        "road": "KING'S MILLS ROAD",
         "start_date": "2026-03-16",
         "end_date": "2026-06-05",
         "what": "Road Side Works",
-        "description": "Works",
+        "description": "Rebuilding a Roadside Wall.",
         "bus_routes": [],
         "contractor": "NSP Foundations",
         "reference": "P042827-THS2",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Portable Signals",
         "source": "merged"
       }
     },
@@ -70546,7 +70822,7 @@
       },
       "properties": {
         "road": "VAUVERT",
-        "start_date": "2026-02-28",
+        "start_date": "2026-02-27",
         "end_date": "2026-03-02",
         "what": "Skips / Building Material",
         "description": "Skip; Parking suspension: Unloading bay outside The Plough Inn",
@@ -70754,16 +71030,16 @@
         ]
       },
       "properties": {
-        "road": "ST. MARTIN - CALAIS LANE",
+        "road": "CALAIS LANE",
         "start_date": "2026-03-09",
         "end_date": "2026-03-23",
         "what": "Utility Works",
-        "description": "Works",
+        "description": "Essential maintenance to gas service.",
         "bus_routes": [],
         "contractor": "Guernsey Gas",
         "reference": "P042836-GG1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -70899,16 +71175,16 @@
         ]
       },
       "properties": {
-        "road": "ST. SAMPSON - LES ABREUVEURS ROAD",
+        "road": "LES ABREUVEURS ROAD",
         "start_date": "2026-03-11",
         "end_date": "2026-03-11",
         "what": "Road Side Works",
-        "description": "Works",
+        "description": "Tree surgery works.",
         "bus_routes": [],
         "contractor": "Treevolution",
         "reference": "P042839-THS2",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -71656,16 +71932,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - QUAY STREET",
+        "road": "QUAY STREET",
         "start_date": "2026-03-03",
         "end_date": "2026-03-04",
         "what": "Loading / Unloading",
-        "description": "Works",
+        "description": "Household removal.",
         "bus_routes": [],
         "contractor": "R and R Removals",
         "reference": "P042849-THS2",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -72145,16 +72421,33 @@
         ]
       },
       "properties": {
-        "road": "ST. SAVIOUR - LA RUE DU HAMEL",
+        "road": "LA RUE DU HAMEL",
         "start_date": "2026-03-16",
         "end_date": "2026-06-05",
         "what": "Utility Works",
-        "description": "Works",
-        "bus_routes": [],
+        "description": "Low voltage cabling and service upgrade",
+        "bus_routes": [
+          "1A",
+          "1B",
+          "2A",
+          "2B",
+          "3B",
+          "4A",
+          "4B",
+          "5A",
+          "5B",
+          "8A",
+          "HS",
+          "Houguette",
+          "LBHS",
+          "LMDC",
+          "LV",
+          "PS"
+        ],
         "contractor": "Guernsey Electricity",
         "reference": "P042852-GE1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -72277,63 +72570,6 @@
         "type": "LineString",
         "coordinates": [
           [
-            -2.55362308445527,
-            49.456370583628804
-          ],
-          [
-            -2.553594063701406,
-            49.456434825112616
-          ],
-          [
-            -2.5535620756065622,
-            49.45649843171566
-          ],
-          [
-            -2.5535270649133905,
-            49.456561376527
-          ],
-          [
-            -2.5534891555485166,
-            49.45662358746657
-          ],
-          [
-            -2.553343727926581,
-            49.45685399152024
-          ],
-          [
-            -2.5532149977663052,
-            49.45706284142512
-          ],
-          [
-            -2.5530856177348875,
-            49.45727151211861
-          ],
-          [
-            -2.5530388791722003,
-            49.457338543679306
-          ]
-        ]
-      },
-      "properties": {
-        "road": "YORK AVENUE",
-        "start_date": "2026-02-23",
-        "end_date": "2026-02-23",
-        "what": "Loading / Unloading",
-        "description": "Collection of felled trees; Parking suspension: 3 spaces outside Oakdene; Glenview and Catcha",
-        "bus_routes": [],
-        "contractor": "Private Individual",
-        "reference": "P042860-THS1",
-        "status": "Approved",
-        "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [
             -2.535506805058621,
             49.45633785524609
           ],
@@ -72424,16 +72660,28 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - NORTH PLANTATION",
+        "road": "NORTH PLANTATION",
         "start_date": "2026-03-02",
         "end_date": "2026-03-02",
         "what": "Road Side Works",
-        "description": "Works",
-        "bus_routes": [],
+        "description": "Tree surgery works.",
+        "bus_routes": [
+          "2A",
+          "3B",
+          "4B",
+          "5B",
+          "6B",
+          "9B",
+          "HS",
+          "LB",
+          "LBHS",
+          "LMDC",
+          "SS"
+        ],
         "contractor": "ACLMS",
         "reference": "P042861-THS2",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -72525,16 +72773,16 @@
         ]
       },
       "properties": {
-        "road": "ST. SAVIOUR - RUE DES HURIAUX",
+        "road": "RUE DES HURIAUX",
         "start_date": "2026-04-15",
         "end_date": "2026-06-05",
         "what": "Utility Works",
-        "description": "Works",
+        "description": "Low voltage cabling and service upgrades",
         "bus_routes": [],
         "contractor": "Guernsey Electricity",
         "reference": "P042866-GE1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -72654,7 +72902,7 @@
         "bus_routes": [],
         "contractor": "Barrett Landscapes Ltd",
         "reference": "P042867-THS2",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -72662,57 +72910,135 @@
     {
       "type": "Feature",
       "geometry": {
-        "type": "LineString",
+        "type": "MultiLineString",
         "coordinates": [
           [
-            -2.5342258914665137,
-            49.45964678741639
+            [
+              -2.5342258914665137,
+              49.45964678741639
+            ],
+            [
+              -2.534301099004643,
+              49.45966543089946
+            ],
+            [
+              -2.5344675366970626,
+              49.45971169273023
+            ],
+            [
+              -2.53456409671733,
+              49.45973579900393
+            ],
+            [
+              -2.5346621124648014,
+              49.45975718833059
+            ],
+            [
+              -2.5347614597368984,
+              49.459775842850725
+            ],
+            [
+              -2.534861945317465,
+              49.459791726792936
+            ],
+            [
+              -2.535039689311615,
+              49.45981271960302
+            ],
+            [
+              -2.535108428527455,
+              49.45982125753208
+            ]
           ],
           [
-            -2.534301099004643,
-            49.45966543089946
+            [
+              -2.5342258914665137,
+              49.45964678741639
+            ],
+            [
+              -2.534301099004643,
+              49.45966543089946
+            ],
+            [
+              -2.5344675366970626,
+              49.45971169273023
+            ],
+            [
+              -2.53456409671733,
+              49.45973579900393
+            ],
+            [
+              -2.5346621124648014,
+              49.45975718833059
+            ],
+            [
+              -2.5347614597368984,
+              49.459775842850725
+            ],
+            [
+              -2.534861945317465,
+              49.459791726792936
+            ],
+            [
+              -2.535039689311615,
+              49.45981271960302
+            ],
+            [
+              -2.535108428527455,
+              49.45982125753208
+            ]
           ],
           [
-            -2.5344675366970626,
-            49.45971169273023
-          ],
-          [
-            -2.53456409671733,
-            49.45973579900393
-          ],
-          [
-            -2.5346621124648014,
-            49.45975718833059
-          ],
-          [
-            -2.5347614597368984,
-            49.459775842850725
-          ],
-          [
-            -2.534861945317465,
-            49.459791726792936
-          ],
-          [
-            -2.535039689311615,
-            49.45981271960302
-          ],
-          [
-            -2.535108428527455,
-            49.45982125753208
+            [
+              -2.5342258914665137,
+              49.45964678741639
+            ],
+            [
+              -2.534301099004643,
+              49.45966543089946
+            ],
+            [
+              -2.5344675366970626,
+              49.45971169273023
+            ],
+            [
+              -2.53456409671733,
+              49.45973579900393
+            ],
+            [
+              -2.5346621124648014,
+              49.45975718833059
+            ],
+            [
+              -2.5347614597368984,
+              49.459775842850725
+            ],
+            [
+              -2.534861945317465,
+              49.459791726792936
+            ],
+            [
+              -2.535039689311615,
+              49.45981271960302
+            ],
+            [
+              -2.535108428527455,
+              49.45982125753208
+            ]
           ]
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - BOSQ LANE",
-        "start_date": "2026-02-21",
-        "end_date": "2026-05-29",
+        "road": "BOSQ LANE",
+        "start_date": "2026-02-20",
+        "end_date": "2026-05-30",
         "what": "Scaffolding",
-        "description": "Works",
+        "description": "Scaffolding ; Property: Roustel House ; Purpose: External Decoration",
         "bus_routes": [],
         "contractor": "Impact Scaffolding",
         "reference": "P042868-THS2",
         "status": "In Progress",
-        "tm_type": "",
+        "tm_type": "Lanes Reduced",
         "source": "merged"
       }
     },
@@ -72804,16 +73130,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - PEDVIN STREET",
+        "road": "PEDVIN STREET",
         "start_date": "2026-03-24",
         "end_date": "2026-03-24",
         "what": "Loading / Unloading",
-        "description": "Works",
+        "description": "House move",
         "bus_routes": [],
         "contractor": "Diamond Group Ltd",
         "reference": "P042869-THS2",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -72929,16 +73255,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - LES COTILS",
+        "road": "LES COTILS",
         "start_date": "2026-03-18",
         "end_date": "2026-03-20",
         "what": "Loading / Unloading",
-        "description": "Works",
+        "description": "House move",
         "bus_routes": [],
         "contractor": "R and R Removals",
         "reference": "P042872-THS2",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -73062,16 +73388,16 @@
         ]
       },
       "properties": {
-        "road": "ST. MARTIN - LA FOSSE",
+        "road": "LA FOSSE",
         "start_date": "2026-03-25",
         "end_date": "2026-03-26",
         "what": "Utility Works",
-        "description": "Works",
+        "description": "Repairing a gully",
         "bus_routes": [],
-        "contractor": "Traffic and Highway Services (Highways Inspector)",
+        "contractor": "Geomarine",
         "reference": "P042875-THS3-D",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Portable Signals",
         "source": "merged"
       }
     },
@@ -73313,16 +73639,16 @@
         ]
       },
       "properties": {
-        "road": "VALE - LA ROCHELLE ROAD",
+        "road": "GRANDE RUE; KING'S ROAD; LA ROCHELLE ROAD",
         "start_date": "2026-05-13",
         "end_date": "2026-05-14",
         "what": "Utility Works",
-        "description": "Works",
+        "description": "Replacing faulty streetlight",
         "bus_routes": [],
         "contractor": "Guernsey Electricity",
         "reference": "P042891-GE1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Portable Signals",
         "source": "merged"
       }
     },
@@ -73366,16 +73692,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - HAVILLAND STREET",
+        "road": "HAVILLAND STREET",
         "start_date": "2026-05-05",
         "end_date": "2026-05-05",
         "what": "Building Maintenance",
-        "description": "Works",
+        "description": "Pressure washing",
         "bus_routes": [],
         "contractor": "AFM",
         "reference": "P042899-THS2",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Lanes Reduced",
         "source": "merged"
       }
     },
@@ -73439,16 +73765,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - CROUTES HAVILLAND",
+        "road": "CROUTES HAVILLAND",
         "start_date": "2026-03-02",
         "end_date": "2026-03-04",
         "what": "Loading / Unloading",
-        "description": "Works",
+        "description": "Unloading Scaffolding.",
         "bus_routes": [],
         "contractor": "Private Individual",
         "reference": "P042900-THS2",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -74470,16 +74796,19 @@
         ]
       },
       "properties": {
-        "road": "ST. SAMPSON - VICTORIA AVENUE",
+        "road": "VICTORIA AVENUE",
         "start_date": "2026-03-07",
         "end_date": "2026-03-07",
         "what": "Event",
-        "description": "Works",
-        "bus_routes": [],
-        "contractor": "Guernsey Football Association",
+        "description": "GFC match - road closure ; Parking suspension: Spaces outside GFC club for accessible parking",
+        "bus_routes": [
+          "2A",
+          "Vale"
+        ],
+        "contractor": "nan",
         "reference": "P042907-THS1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -74623,169 +74952,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - CORDIER HILL",
-        "start_date": "2026-02-23",
-        "end_date": "2026-02-23",
-        "what": "Lifting Operations",
-        "description": "Works",
-        "bus_routes": [],
-        "contractor": "J W Rihoy Builders",
-        "reference": "P042915-THS1",
-        "status": "Approved",
-        "tm_type": "",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiLineString",
-        "coordinates": [
-          [
-            [
-              -2.543547813927481,
-              49.453698826334985
-            ],
-            [
-              -2.5435404759012052,
-              49.453719982013354
-            ],
-            [
-              -2.543600645487548,
-              49.453733717699784
-            ],
-            [
-              -2.5436129418562725,
-              49.4537419582532
-            ],
-            [
-              -2.5436092056120057,
-              49.45375320152725
-            ],
-            [
-              -2.543527072268179,
-              49.453849175277526
-            ],
-            [
-              -2.5435167560124627,
-              49.453860003172444
-            ],
-            [
-              -2.543422664590047,
-              49.45396140274669
-            ]
-          ],
-          [
-            [
-              -2.543422664590047,
-              49.45396140274669
-            ],
-            [
-              -2.5434200513183,
-              49.45396421989949
-            ],
-            [
-              -2.5433295065144135,
-              49.45405584192455
-            ],
-            [
-              -2.543233114001728,
-              49.454158403743456
-            ],
-            [
-              -2.5432165313344974,
-              49.454183534695446
-            ]
-          ],
-          [
-            [
-              -2.5439693649329245,
-              49.45497907129054
-            ],
-            [
-              -2.5439911877847994,
-              49.45489503221782
-            ],
-            [
-              -2.5440311036833214,
-              49.454666239663226
-            ],
-            [
-              -2.5440886735769035,
-              49.45434701973742
-            ],
-            [
-              -2.5440937291676105,
-              49.45430205747863
-            ],
-            [
-              -2.544093545937744,
-              49.454289901391725
-            ],
-            [
-              -2.544084842697618,
-              49.45427916633121
-            ],
-            [
-              -2.544069625424461,
-              49.45427219682483
-            ],
-            [
-              -2.543824670990447,
-              49.45423954909925
-            ],
-            [
-              -2.543265021957888,
-              49.45418224981631
-            ],
-            [
-              -2.5432165313344974,
-              49.454183534695446
-            ]
-          ],
-          [
-            [
-              -2.5439506839072004,
-              49.45598345105407
-            ],
-            [
-              -2.543921158232568,
-              49.4556923171275
-            ],
-            [
-              -2.543898583995931,
-              49.45544364161248
-            ],
-            [
-              -2.5438748197318786,
-              49.45525200842926
-            ],
-            [
-              -2.543874298740999,
-              49.45524255910774
-            ],
-            [
-              -2.5438708267824737,
-              49.45523336478914
-            ],
-            [
-              -2.5438700975943456,
-              49.45521808031928
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "road": "ST. PETER PORT - CORDIER HILL",
+        "road": "CORDIER HILL; VAUVERT",
         "start_date": "2026-02-25",
         "end_date": "2026-02-25",
         "what": "Lifting Operations",
-        "description": "Works",
+        "description": "Crane lift; Parking suspension: All parking from Grange junction until Vauvert Manor and all parking in Cordier Hill.",
         "bus_routes": [],
         "contractor": "J W Rihoy Builders",
         "reference": "P042917-THS1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -75001,6 +75177,889 @@
     {
       "type": "Feature",
       "geometry": {
+        "type": "MultiLineString",
+        "coordinates": [
+          [
+            [
+              -2.5355865292413777,
+              49.45029517993792
+            ],
+            [
+              -2.5355760895480772,
+              49.450278197032006
+            ],
+            [
+              -2.535561612143164,
+              49.45026250403797
+            ],
+            [
+              -2.535543484183679,
+              49.45024851415826
+            ],
+            [
+              -2.5355221203855822,
+              49.45023663157541
+            ],
+            [
+              -2.5354283546931193,
+              49.4501799655415
+            ],
+            [
+              -2.5352812892508854,
+              49.450096002437164
+            ],
+            [
+              -2.5351861499904906,
+              49.45004713310957
+            ],
+            [
+              -2.5350694805059697,
+              49.449991551229765
+            ],
+            [
+              -2.5349939338437646,
+              49.44995776714238
+            ],
+            [
+              -2.5349282288521993,
+              49.449921770063334
+            ],
+            [
+              -2.534865910562126,
+              49.449883269892055
+            ],
+            [
+              -2.53480719997856,
+              49.449842410269646
+            ],
+            [
+              -2.534752359477348,
+              49.4497993347952
+            ],
+            [
+              -2.5346818164008327,
+              49.44974127775554
+            ],
+            [
+              -2.534653208600086,
+              49.44971619411758
+            ],
+            [
+              -2.5346272321386407,
+              49.449689947905355
+            ],
+            [
+              -2.5346039424372004,
+              49.44966264696015
+            ],
+            [
+              -2.534583463871064,
+              49.44963439905295
+            ],
+            [
+              -2.5345715971477607,
+              49.44960873187046
+            ],
+            [
+              -2.5345627495088436,
+              49.44958257607658
+            ],
+            [
+              -2.534557031601363,
+              49.44955606642933
+            ],
+            [
+              -2.534554443743791,
+              49.44952933779907
+            ],
+            [
+              -2.534555632132933,
+              49.44950731678433
+            ],
+            [
+              -2.53455999294831,
+              49.449485499336696
+            ],
+            [
+              -2.534567540343338,
+              49.44946403829427
+            ],
+            [
+              -2.534578095483967,
+              49.449443122657065
+            ],
+            [
+              -2.5345973304618927,
+              49.44941866457017
+            ],
+            [
+              -2.534617097459547,
+              49.44939753273502
+            ],
+            [
+              -2.5346346144184717,
+              49.44937553103095
+            ],
+            [
+              -2.5346497438194158,
+              49.44935282144343
+            ],
+            [
+              -2.534662458212616,
+              49.44932945794954
+            ],
+            [
+              -2.5346707985515606,
+              49.449305136843066
+            ],
+            [
+              -2.5346759108938266,
+              49.44928044139306
+            ],
+            [
+              -2.5346779060680698,
+              49.44925557828779
+            ],
+            [
+              -2.5346766050127534,
+              49.44923063762356
+            ],
+            [
+              -2.5346563115854424,
+              49.44901514476904
+            ],
+            [
+              -2.5346460458813325,
+              49.44890950692938
+            ],
+            [
+              -2.5346441291902138,
+              49.4488751259782
+            ],
+            [
+              -2.5346506116969874,
+              49.44884097922528
+            ],
+            [
+              -2.534665357590885,
+              49.44880794795973
+            ],
+            [
+              -2.534687899997826,
+              49.448776877841226
+            ],
+            [
+              -2.5347754839927847,
+              49.448684348405365
+            ],
+            [
+              -2.5349732434658785,
+              49.44847769598311
+            ],
+            [
+              -2.5350049603946094,
+              49.4484540252855
+            ],
+            [
+              -2.5350411110599413,
+              49.448433236263455
+            ],
+            [
+              -2.535081103350183,
+              49.448415698164396
+            ],
+            [
+              -2.5351242070118043,
+              49.448401681472625
+            ],
+            [
+              -2.535160342524193,
+              49.448391807923414
+            ],
+            [
+              -2.5352042234908647,
+              49.448385612876955
+            ],
+            [
+              -2.535248925557737,
+              49.44838250999522
+            ],
+            [
+              -2.5352938558198663,
+              49.44838253585079
+            ],
+            [
+              -2.535338572896802,
+              49.448385654930846
+            ],
+            [
+              -2.535382169976,
+              49.448393261825224
+            ],
+            [
+              -2.5354411471572096,
+              49.44840799203876
+            ],
+            [
+              -2.535479146201695,
+              49.448416000264594
+            ],
+            [
+              -2.5355183244559605,
+              49.448421192974635
+            ],
+            [
+              -2.535558074774706,
+              49.448423426930354
+            ],
+            [
+              -2.5355980524266157,
+              49.44842272046831
+            ],
+            [
+              -2.5356306901141195,
+              49.448420654857806
+            ],
+            [
+              -2.5356628947375244,
+              49.44841629689029
+            ],
+            [
+              -2.5356941284985113,
+              49.448409665102226
+            ],
+            [
+              -2.5357240607211535,
+              49.44840088571374
+            ],
+            [
+              -2.535754469661886,
+              49.448389651188926
+            ],
+            [
+              -2.5357832473654676,
+              49.448376799893786
+            ],
+            [
+              -2.5358102007825116,
+              49.448362341019696
+            ],
+            [
+              -2.5358351648160475,
+              49.44834643658224
+            ],
+            [
+              -2.5358601106176124,
+              49.448328706914715
+            ],
+            [
+              -2.535882046044004,
+              49.448309334928354
+            ],
+            [
+              -2.535900585459326,
+              49.44828852782334
+            ],
+            [
+              -2.5359155639453728,
+              49.44826651954635
+            ],
+            [
+              -2.5359343292321763,
+              49.44823082253246
+            ],
+            [
+              -2.5359441545555956,
+              49.448193651163145
+            ],
+            [
+              -2.535944807719239,
+              49.448155922797575
+            ],
+            [
+              -2.5359362634969176,
+              49.44811859953609
+            ],
+            [
+              -2.5359315827352797,
+              49.44809918305323
+            ],
+            [
+              -2.5359230832430315,
+              49.448080292005876
+            ],
+            [
+              -2.5359109728429856,
+              49.44806232179822
+            ],
+            [
+              -2.5358954175270805,
+              49.44804547905898
+            ],
+            [
+              -2.535874678583167,
+              49.448023624488755
+            ],
+            [
+              -2.5358506060622794,
+              49.448003310870384
+            ],
+            [
+              -2.5358234623578673,
+              49.4479846907844
+            ],
+            [
+              -2.5357935239358174,
+              49.44796803368427
+            ],
+            [
+              -2.535768607347939,
+              49.44795790811457
+            ],
+            [
+              -2.5357428383243814,
+              49.4479488443961
+            ],
+            [
+              -2.535716258105035,
+              49.44794078853776
+            ],
+            [
+              -2.5356889359462365,
+              49.44793386634659
+            ],
+            [
+              -2.535637240504892,
+              49.447919056837456
+            ],
+            [
+              -2.5355931207472584,
+              49.44790045415832
+            ],
+            [
+              -2.5355542858992046,
+              49.44787742228693
+            ],
+            [
+              -2.5355216751556595,
+              49.447850553692376
+            ],
+            [
+              -2.5354962418431235,
+              49.447820584690916
+            ],
+            [
+              -2.5354894920654605,
+              49.447795200060206
+            ],
+            [
+              -2.5354836661512605,
+              49.44776976952314
+            ],
+            [
+              -2.5354788604371747,
+              49.447744212058794
+            ],
+            [
+              -2.535474978583639,
+              49.44771860868833
+            ],
+            [
+              -2.5354777451117285,
+              49.447682145931445
+            ],
+            [
+              -2.535487684059326,
+              49.44764624226079
+            ],
+            [
+              -2.5355045623203094,
+              49.447611455377526
+            ],
+            [
+              -2.535528133087276,
+              49.44757837896134
+            ],
+            [
+              -2.535558144261206,
+              49.44755682282783
+            ],
+            [
+              -2.5355923546461274,
+              49.44753813060863
+            ],
+            [
+              -2.5356302411849487,
+              49.447522707448684
+            ],
+            [
+              -2.5356709356708778,
+              49.447510797004185
+            ],
+            [
+              -2.5357138043377923,
+              49.44750264269096
+            ],
+            [
+              -2.5357579649324244,
+              49.447498380285204
+            ],
+            [
+              -2.5358043863900606,
+              49.447493800836504
+            ],
+            [
+              -2.5358512997898517,
+              49.44749305117651
+            ],
+            [
+              -2.5358979605457406,
+              49.44749616803758
+            ],
+            [
+              -2.5359436652466942,
+              49.447503107188744
+            ],
+            [
+              -2.5359876413976634,
+              49.447513770523294
+            ],
+            [
+              -2.53602926793489,
+              49.447527951883
+            ],
+            [
+              -2.536062914274017,
+              49.447543975701244
+            ],
+            [
+              -2.536092857792328,
+              49.44756279964241
+            ],
+            [
+              -2.5361186014001476,
+              49.44758416347369
+            ],
+            [
+              -2.536139675171011,
+              49.44760763609856
+            ],
+            [
+              -2.5361634113104405,
+              49.447642776738256
+            ],
+            [
+              -2.5361741645920715,
+              49.447658428555386
+            ],
+            [
+              -2.536187288053701,
+              49.44767334063159
+            ],
+            [
+              -2.5362025192401694,
+              49.44768733341042
+            ],
+            [
+              -2.5362197889812865,
+              49.44770031704904
+            ],
+            [
+              -2.5362486618719497,
+              49.44772114712662
+            ],
+            [
+              -2.5362815551427382,
+              49.447739311600124
+            ],
+            [
+              -2.536317902396792,
+              49.447754406441454
+            ],
+            [
+              -2.5363569858884603,
+              49.44776617164109
+            ],
+            [
+              -2.5364030144153915,
+              49.44777570877484
+            ],
+            [
+              -2.5364505499071717,
+              49.447781135283655
+            ],
+            [
+              -2.536498764767328,
+              49.44778238908376
+            ],
+            [
+              -2.5365467486992572,
+              49.44777942616106
+            ],
+            [
+              -2.53659369668617,
+              49.44777013438394
+            ],
+            [
+              -2.5366383873879257,
+              49.44775698764111
+            ],
+            [
+              -2.5366800349778695,
+              49.447740085655404
+            ],
+            [
+              -2.5367179646586933,
+              49.44771981575844
+            ],
+            [
+              -2.5368507098151243,
+              49.44761719451108
+            ],
+            [
+              -2.5370232497269893,
+              49.44747912377552
+            ],
+            [
+              -2.5372084734508586,
+              49.447334439910506
+            ],
+            [
+              -2.5373933108819755,
+              49.44719013378479
+            ],
+            [
+              -2.5374727970652815,
+              49.44713333335962
+            ],
+            [
+              -2.537556108844608,
+              49.44707891158803
+            ],
+            [
+              -2.5376431361622602,
+              49.447026976473076
+            ],
+            [
+              -2.5377336726964526,
+              49.44697774401487
+            ],
+            [
+              -2.5378477690169894,
+              49.44691419954889
+            ],
+            [
+              -2.538052348795905,
+              49.44679706151149
+            ],
+            [
+              -2.5380736933999906,
+              49.446784774907165
+            ],
+            [
+              -2.5380938637575987,
+              49.44677165333623
+            ],
+            [
+              -2.5381127358231512,
+              49.44675772390364
+            ],
+            [
+              -2.5381302685147973,
+              49.446743103540626
+            ],
+            [
+              -2.538151865797832,
+              49.44672147464444
+            ],
+            [
+              -2.53816754194584,
+              49.44669778395426
+            ],
+            [
+              -2.5381768986934885,
+              49.44667269725075
+            ],
+            [
+              -2.538179689737034,
+              49.44664698805026
+            ],
+            [
+              -2.538186890395499,
+              49.44656974479214
+            ],
+            [
+              -2.5381942515224423,
+              49.44654069499826
+            ],
+            [
+              -2.5382064547018186,
+              49.4465123324494
+            ],
+            [
+              -2.5382234180962313,
+              49.44648502587539
+            ],
+            [
+              -2.5382447839996263,
+              49.446459117321524
+            ],
+            [
+              -2.538271120849482,
+              49.446435838002564
+            ]
+          ],
+          [
+            [
+              -2.538271120849482,
+              49.446435838002564
+            ],
+            [
+              -2.5382943014223045,
+              49.44641881997631
+            ],
+            [
+              -2.538319581283766,
+              49.446403094491565
+            ],
+            [
+              -2.538346809165161,
+              49.44638883254187
+            ],
+            [
+              -2.538375750768493,
+              49.446376088320406
+            ],
+            [
+              -2.538430497301097,
+              49.44635920788001
+            ],
+            [
+              -2.538488803786083,
+              49.4463487524791
+            ],
+            [
+              -2.5385490712807512,
+              49.446345002529355
+            ],
+            [
+              -2.538609410829823,
+              49.446348067915494
+            ],
+            [
+              -2.538740784313431,
+              49.44636256724415
+            ],
+            [
+              -2.53905308714399,
+              49.44640013572931
+            ],
+            [
+              -2.5393159903207865,
+              49.44643069755856
+            ],
+            [
+              -2.539536476355787,
+              49.4464562057653
+            ],
+            [
+              -2.5395827117632614,
+              49.44646048147618
+            ],
+            [
+              -2.539629366308678,
+              49.446461411940774
+            ],
+            [
+              -2.539675846960881,
+              49.44645897980668
+            ],
+            [
+              -2.5397216711000126,
+              49.446453203570265
+            ],
+            [
+              -2.5397662459430888,
+              49.44644416478537
+            ],
+            [
+              -2.539808992633558,
+              49.44643199894004
+            ],
+            [
+              -2.5398213046743443,
+              49.446425458110355
+            ]
+          ],
+          [
+            [
+              -2.535812177259098,
+              49.45082245183329
+            ],
+            [
+              -2.535803763448208,
+              49.45074803915523
+            ],
+            [
+              -2.5357924984094757,
+              49.45070355260205
+            ],
+            [
+              -2.535777207497864,
+              49.450659555726006
+            ],
+            [
+              -2.5357579739290568,
+              49.450616237258075
+            ],
+            [
+              -2.5357448754430827,
+              49.45058913285352
+            ],
+            [
+              -2.535729295908125,
+              49.45056259745608
+            ],
+            [
+              -2.5356814352694985,
+              49.45048660692501
+            ],
+            [
+              -2.5356725610566646,
+              49.45047257157802
+            ],
+            [
+              -2.535621854974249,
+              49.45037757624878
+            ]
+          ],
+          [
+            [
+              -2.535812177259098,
+              49.45082245183329
+            ],
+            [
+              -2.5358142382807944,
+              49.450916013623
+            ],
+            [
+              -2.535816961552378,
+              49.45110641148735
+            ],
+            [
+              -2.535819391657821,
+              49.451306718106366
+            ],
+            [
+              -2.535822552722867,
+              49.45154684661788
+            ],
+            [
+              -2.5358265590326368,
+              49.451839798378614
+            ],
+            [
+              -2.5358290632616787,
+              49.45209909708317
+            ],
+            [
+              -2.5358276805366904,
+              49.452279698577186
+            ]
+          ],
+          [
+            [
+              -2.535621854974249,
+              49.45037757624878
+            ],
+            [
+              -2.535608095799393,
+              49.45034524853652
+            ],
+            [
+              -2.535591559428345,
+              49.450305083226525
+            ],
+            [
+              -2.5355865292413777,
+              49.45029517993792
+            ]
+          ],
+          [
+            [
+              -2.535618545680283,
+              49.452509480756106
+            ],
+            [
+              -2.535650183913691,
+              49.45249223878794
+            ],
+            [
+              -2.535662401199063,
+              49.45248558161852
+            ],
+            [
+              -2.535695482624774,
+              49.45246630611012
+            ],
+            [
+              -2.5357240470165796,
+              49.4524441130564
+            ],
+            [
+              -2.5357617735222795,
+              49.45240663427445
+            ],
+            [
+              -2.5357918938607305,
+              49.452366349024636
+            ],
+            [
+              -2.5358139406715443,
+              49.452323896179536
+            ],
+            [
+              -2.5358276805366904,
+              49.452279698577186
+            ]
+          ],
+          [
+            [
+              -2.5358276805366904,
+              49.452279698577186
+            ],
+            [
+              -2.535844087736863,
+              49.45244826930538
+            ],
+            [
+              -2.535846970700892,
+              49.45252810044471
+            ],
+            [
+              -2.5358499065448954,
+              49.45258423035593
+            ]
+          ]
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - LE VAL DES TERRES",
+        "start_date": "2026-05-25",
+        "end_date": "2026-05-25",
+        "what": "Event",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "GKMC - Guernsey Kart and Motor Club",
+        "reference": "P042924-THS1",
+        "status": "Pending",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
         "type": "LineString",
         "coordinates": [
           [
@@ -75078,16 +76137,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - AVENUE DU MANOIR",
+        "road": "AVENUE DU MANOIR",
         "start_date": "2026-03-02",
         "end_date": "2026-03-09",
         "what": "Utility Works",
-        "description": "Works",
+        "description": "Essential maintenance to gas services. ; Parking suspension: See `Site Plan`",
         "bus_routes": [],
         "contractor": "Guernsey Gas",
         "reference": "P042929-GG1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Give/Take",
         "source": "merged"
       }
     },
@@ -75264,16 +76323,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PIERRE DU BOIS - RUE DE ST. BRIOCQ",
+        "road": "RUE DE ST. BRIOCQ",
         "start_date": "2026-02-18",
         "end_date": "2026-03-02",
         "what": "Utility Works",
-        "description": "Works",
+        "description": "SFW Culvert Issue",
         "bus_routes": [],
-        "contractor": "Guernsey Water (Wastewater)",
+        "contractor": "Geomarine",
         "reference": "P042944-GWW1-D",
         "status": "In Progress",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -75409,16 +76468,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - LA COUPERDERIE",
+        "road": "LA COUPERDERIE",
         "start_date": "2026-02-25",
         "end_date": "2026-02-25",
         "what": "Loading / Unloading",
-        "description": "Works",
+        "description": "Delivery of granite worktops; Parking suspension: 2 spaces opposite Winchcombe House",
         "bus_routes": [],
         "contractor": "Change of Style",
         "reference": "P042948-THS1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Signing Only",
         "source": "merged"
       }
     },
@@ -75718,16 +76777,26 @@
         ]
       },
       "properties": {
-        "road": "CASTEL - ROUTE DE LA HOUGUE DU POMMIER",
+        "road": "ROUTE DE LA HOUGUE DU POMMIER",
         "start_date": "2026-02-19",
         "end_date": "2026-02-26",
         "what": "Utility Works",
-        "description": "Works",
-        "bus_routes": [],
-        "contractor": "Guernsey Electricity",
+        "description": "lv fault",
+        "bus_routes": [
+          "-",
+          "6A",
+          "8A",
+          "8B",
+          "LMDC",
+          "LV",
+          "N2",
+          "SS",
+          "41"
+        ],
+        "contractor": "Trant",
         "reference": "P042950-GE1",
         "status": "In Progress",
-        "tm_type": "",
+        "tm_type": "Road Closure",
         "source": "merged"
       }
     },
@@ -76003,221 +77072,154 @@
               -2.573898971186238,
               49.44813303121848
             ]
+          ],
+          [
+            [
+              -2.5763659635676808,
+              49.45029646700652
+            ],
+            [
+              -2.5762374483728987,
+              49.45023447821988
+            ],
+            [
+              -2.5760343994303243,
+              49.45011951609829
+            ],
+            [
+              -2.575938320734068,
+              49.45006138452265
+            ],
+            [
+              -2.5758238544099594,
+              49.44998065594357
+            ],
+            [
+              -2.575714531936643,
+              49.44989120756185
+            ],
+            [
+              -2.5756257918847023,
+              49.449807772974225
+            ],
+            [
+              -2.5755101195348082,
+              49.44968636888566
+            ],
+            [
+              -2.5754109579691695,
+              49.44957422108884
+            ],
+            [
+              -2.575303381585568,
+              49.449456950687775
+            ],
+            [
+              -2.575205323948134,
+              49.44933616051152
+            ],
+            [
+              -2.575117158463481,
+              49.44921219174357
+            ],
+            [
+              -2.5750390240255103,
+              49.449085367904736
+            ],
+            [
+              -2.574997749488447,
+              49.449000258368024
+            ],
+            [
+              -2.574958638748425,
+              49.44891467830384
+            ],
+            [
+              -2.5749216646188358,
+              49.44882875363044
+            ],
+            [
+              -2.574886854149951,
+              49.44874232246862
+            ],
+            [
+              -2.5748710810374122,
+              49.448709156978325
+            ],
+            [
+              -2.574851311896092,
+              49.44867701297352
+            ],
+            [
+              -2.574827671080799,
+              49.4486459622129
+            ],
+            [
+              -2.574800255913213,
+              49.44861624732744
+            ],
+            [
+              -2.5747318620839743,
+              49.448554561262966
+            ],
+            [
+              -2.574657383105785,
+              49.44849604842485
+            ],
+            [
+              -2.574576998900262,
+              49.448440906365406
+            ],
+            [
+              -2.574491124143409,
+              49.4483894312211
+            ],
+            [
+              -2.5743682534520844,
+              49.448322127741164
+            ],
+            [
+              -2.57427749181844,
+              49.448277573448046
+            ],
+            [
+              -2.57418561670737,
+              49.44823408157914
+            ],
+            [
+              -2.574092503942638,
+              49.4481916343181
+            ],
+            [
+              -2.573998264134146,
+              49.44815032142502
+            ],
+            [
+              -2.573966613731068,
+              49.44814144505715
+            ],
+            [
+              -2.573933249264015,
+              49.448135619078734
+            ],
+            [
+              -2.573898971186238,
+              49.44813303121848
+            ]
           ]
         ]
       },
       "properties": {
-        "road": "ST. ANDREW - ROUTE DES TALBOTS",
+        "road": "ROUTE DES TALBOTS",
         "start_date": "2026-02-25",
-        "end_date": "2026-06-23",
+        "end_date": "2026-06-25",
         "what": "Scaffolding",
-        "description": "Works",
+        "description": "Erecting scaffolding; Property: Les Galliennes; Purpose: Demolition / New Build",
         "bus_routes": [],
         "contractor": "Scaffolding Services",
         "reference": "P042961-THS1",
         "status": "Approved",
-        "tm_type": "",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "MultiLineString",
-        "coordinates": [
-          [
-            [
-              -2.5375359223395284,
-              49.45302582567828
-            ],
-            [
-              -2.537556604341251,
-              49.45300093401794
-            ],
-            [
-              -2.5376428657667653,
-              49.45263353860111
-            ],
-            [
-              -2.5376486932238516,
-              49.45261407524566
-            ],
-            [
-              -2.537650699551923,
-              49.45259430118999
-            ],
-            [
-              -2.5376487612926,
-              49.452574486303675
-            ],
-            [
-              -2.5376429484058027,
-              49.45255503512368
-            ]
-          ],
-          [
-            [
-              -2.5357139720372097,
-              49.45449140629346
-            ],
-            [
-              -2.5358036984774173,
-              49.45447705364483
-            ],
-            [
-              -2.535895248275583,
-              49.45446385892945
-            ],
-            [
-              -2.536226323634286,
-              49.45441919886807
-            ],
-            [
-              -2.5362561592521677,
-              49.454414600423696
-            ],
-            [
-              -2.5362839858222417,
-              49.454406245670405
-            ],
-            [
-              -2.5363087420041515,
-              49.45439441443899
-            ],
-            [
-              -2.536329394679809,
-              49.45437964728047
-            ],
-            [
-              -2.536345145227009,
-              49.45436249349497
-            ],
-            [
-              -2.5363553333226507,
-              49.454343655092174
-            ],
-            [
-              -2.536337448244171,
-              49.45429984082882
-            ],
-            [
-              -2.5363256863989045,
-              49.45427277108938
-            ],
-            [
-              -2.5363147379864563,
-              49.45424556563707
-            ],
-            [
-              -2.536304603071195,
-              49.45421825144612
-            ],
-            [
-              -2.5362952676844186,
-              49.454190756600426
-            ],
-            [
-              -2.536285217070359,
-              49.45413573101762
-            ],
-            [
-              -2.536278517415683,
-              49.45408045920193
-            ],
-            [
-              -2.5362750862618713,
-              49.4540250671179
-            ],
-            [
-              -2.5362750065702424,
-              49.453969644593485
-            ],
-            [
-              -2.5362769571095116,
-              49.453921026411884
-            ],
-            [
-              -2.5362805449952868,
-              49.45383111831178
-            ],
-            [
-              -2.536281776590559,
-              49.45380445772035
-            ],
-            [
-              -2.5362845116229127,
-              49.45377783153929
-            ],
-            [
-              -2.536288708888255,
-              49.45375131174182
-            ],
-            [
-              -2.5362944098265983,
-              49.45372492525889
-            ],
-            [
-              -2.5363246385077454,
-              49.45368366870307
-            ],
-            [
-              -2.536363923078852,
-              49.45364580149339
-            ],
-            [
-              -2.5364115208968565,
-              49.45361220554077
-            ],
-            [
-              -2.536484228221802,
-              49.45357614690638
-            ],
-            [
-              -2.5365525267582103,
-              49.45354771745116
-            ],
-            [
-              -2.536750328867726,
-              49.45349472410477
-            ],
-            [
-              -2.5368545569850416,
-              49.45346117705514
-            ],
-            [
-              -2.5370074030931784,
-              49.453399796099234
-            ],
-            [
-              -2.537211502636043,
-              49.45329435792095
-            ],
-            [
-              -2.537421464379398,
-              49.4531895066885
-            ],
-            [
-              -2.537465958147961,
-              49.4531672696012
-            ],
-            [
-              -2.537527764821113,
-              49.453124181473356
-            ]
-          ]
-        ]
-      },
-      "properties": {
-        "road": "ST. PETER PORT - LOWER HAUTEVILLE",
-        "start_date": "2026-02-23",
-        "end_date": "2026-02-23",
-        "what": "Road Side Works",
-        "description": "Works",
-        "bus_routes": [],
-        "contractor": "RW Randall",
-        "reference": "P042972-THS1",
-        "status": "Approved",
-        "tm_type": "",
+        "tm_type": "No Tm",
         "source": "merged"
       }
     },
@@ -76405,16 +77407,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PIERRE DU BOIS - ROUTE DES ADAMS",
+        "road": "ROUTE DES ADAMS",
         "start_date": "2026-03-30",
         "end_date": "2026-04-02",
         "what": "Utility Works",
-        "description": "Works",
+        "description": "Road crossing to allow new connection to property and box build in footway.",
         "bus_routes": [],
-        "contractor": "Sure",
+        "contractor": "Geomarine",
         "reference": "P042973-SURE1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Portable Signals",
         "source": "merged"
       }
     },
@@ -76456,16 +77458,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - LE POLLET",
+        "road": "LE POLLET",
         "start_date": "2026-02-24",
         "end_date": "2026-03-24",
         "what": "Scaffolding",
-        "description": "Works",
+        "description": "scaffolding of building for roof works.; Property: 39 LE POLLET; Purpose: Roofing Works",
         "bus_routes": [],
         "contractor": "Scaffolding Services",
         "reference": "P042976-THS1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "No Tm",
         "source": "merged"
       }
     },
@@ -76651,16 +77653,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - CHURCH SQUARE",
+        "road": "CHURCH SQUARE",
         "start_date": "2026-02-24",
         "end_date": "2026-04-24",
         "what": "Scaffolding",
-        "description": "Works",
+        "description": "SCAFFOLDING TOWN CHURCH; Property: TOWN CHURCH; Purpose: Other (see Details)",
         "bus_routes": [],
         "contractor": "Scaffolding Services",
         "reference": "P042977-THS1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "No Tm",
         "source": "merged"
       }
     },
@@ -77085,16 +78087,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - HAUTEVILLE",
+        "road": "HAUTEVILLE",
         "start_date": "2026-03-06",
         "end_date": "2026-03-06",
         "what": "Building Maintenance",
-        "description": "Works",
+        "description": "Boiler repair; Parking suspension: 1 space outside No 29",
         "bus_routes": [],
         "contractor": "Oasis Plumbing",
         "reference": "P042983-THS1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Signing Only",
         "source": "merged"
       }
     },
@@ -77142,16 +78144,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - CORONATION ROAD",
+        "road": "CORONATION ROAD",
         "start_date": "2026-02-25",
         "end_date": "2026-02-25",
         "what": "Loading / Unloading",
-        "description": "Works",
+        "description": "Unloading scaffolding ; Parking suspension: 3 spaces outside No 4 &amp; 5",
         "bus_routes": [],
         "contractor": "Scaffolding Services",
         "reference": "P042990-THS1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Signing Only",
         "source": "merged"
       }
     },
@@ -77279,16 +78281,16 @@
         ]
       },
       "properties": {
-        "road": "ST. PETER PORT - ROUGE HUIS AVENUE",
+        "road": "ROUGE HUIS AVENUE",
         "start_date": "2026-02-24",
         "end_date": "2026-02-25",
         "what": "Loading / Unloading",
-        "description": "Works",
+        "description": "House move ; Parking suspension: First 3 spaces on junction of Brock Road outside Rosehurst",
         "bus_routes": [],
         "contractor": "Private Individual",
         "reference": "P042991-THS1",
         "status": "Approved",
-        "tm_type": "",
+        "tm_type": "Signing Only",
         "source": "merged"
       }
     },
@@ -77376,9 +78378,2109 @@
         "tm_type": "",
         "source": "merged"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.552398272178976,
+            49.48095087732531
+          ],
+          [
+            -2.552428913044579,
+            49.48095772870197
+          ],
+          [
+            -2.552511733246062,
+            49.4809802625668
+          ],
+          [
+            -2.552567754925056,
+            49.48099310826703
+          ],
+          [
+            -2.552616185881388,
+            49.48100067597892
+          ],
+          [
+            -2.5526754591456227,
+            49.481011629633315
+          ],
+          [
+            -2.552734251808202,
+            49.481023437995795
+          ],
+          [
+            -2.5527925638219906,
+            49.48103608308458
+          ],
+          [
+            -2.5528504918884147,
+            49.48104960075173
+          ],
+          [
+            -2.5529782131313126,
+            49.48107558801899
+          ],
+          [
+            -2.553105713586311,
+            49.481101530449095
+          ],
+          [
+            -2.5531778319132203,
+            49.481116406882755
+          ],
+          [
+            -2.5532496203619823,
+            49.481131742217016
+          ],
+          [
+            -2.5533212581326414,
+            49.48114746431048
+          ],
+          [
+            -2.5533926624274432,
+            49.481163573261234
+          ],
+          [
+            -2.553512090088306,
+            49.48118941688896
+          ],
+          [
+            -2.5535415423109717,
+            49.48119549612538
+          ],
+          [
+            -2.5535694228060994,
+            49.481202098709595
+          ],
+          [
+            -2.553613392356436,
+            49.48121304301979
+          ],
+          [
+            -2.5536566062423223,
+            49.48122517505926
+          ],
+          [
+            -2.5536989541172224,
+            49.48123851294217
+          ],
+          [
+            -2.553751774373269,
+            49.48125614523059
+          ],
+          [
+            -2.5538035215376076,
+            49.48127494763557
+          ],
+          [
+            -2.55385425096306,
+            49.48129497404061
+          ],
+          [
+            -2.553903796801787,
+            49.48131613473081
+          ],
+          [
+            -2.5539581510194465,
+            49.48133942063028
+          ],
+          [
+            -2.5540098006249927,
+            49.481362754671814
+          ],
+          [
+            -2.5540604867230745,
+            49.48138696199029
+          ],
+          [
+            -2.5541103610390854,
+            49.481412015432774
+          ],
+          [
+            -2.554204035191158,
+            49.48146118538941
+          ],
+          [
+            -2.554297861607811,
+            49.481510453992925
+          ],
+          [
+            -2.5543325762016944,
+            49.481527900755864
+          ],
+          [
+            -2.5543673871429293,
+            49.4815452484894
+          ],
+          [
+            -2.5544023633052286,
+            49.48156245215495
+          ],
+          [
+            -2.554437559989407,
+            49.481579547651684
+          ],
+          [
+            -2.5544605589760363,
+            49.4815922699156
+          ],
+          [
+            -2.5544802796777955,
+            49.48160717197407
+          ],
+          [
+            -2.5544962242085463,
+            49.48162386779634
+          ],
+          [
+            -2.5545080328064795,
+            49.48164201614335
+          ]
+        ]
+      },
+      "properties": {
+        "road": "ST. SAMPSON - LA ROUTE DES CAPELLES",
+        "start_date": "2026-02-28",
+        "end_date": "2026-03-01",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Water",
+        "reference": "P043004-GW1-D",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.5716819262089863,
+            49.45303943613752
+          ],
+          [
+            -2.5716856110049844,
+            49.45301393175448
+          ],
+          [
+            -2.571700241371092,
+            49.45293864562443
+          ],
+          [
+            -2.571713961198245,
+            49.45286328878143
+          ],
+          [
+            -2.5717268118662635,
+            49.45278786117031
+          ],
+          [
+            -2.571738752031821,
+            49.45271237183814
+          ],
+          [
+            -2.5717427516935807,
+            49.45266428077846
+          ],
+          [
+            -2.571738559009314,
+            49.45261620969384
+          ],
+          [
+            -2.571726175818269,
+            49.45256873402677
+          ],
+          [
+            -2.571705824656376,
+            49.45252243791361
+          ],
+          [
+            -2.571682184084866,
+            49.45249142249587
+          ],
+          [
+            -2.571664193312839,
+            49.45245885299102
+          ],
+          [
+            -2.5716520742187368,
+            49.452425115732055
+          ],
+          [
+            -2.57164603522743,
+            49.45239070496538
+          ],
+          [
+            -2.571637358971401,
+            49.45230283520901
+          ],
+          [
+            -2.5716327233045093,
+            49.452214825166834
+          ],
+          [
+            -2.5716321146117394,
+            49.452126737796945
+          ],
+          [
+            -2.5716355609083976,
+            49.45203871692337
+          ],
+          [
+            -2.5716396516223448,
+            49.45193637197524
+          ],
+          [
+            -2.571647135347586,
+            49.451834112392106
+          ],
+          [
+            -2.571658025939558,
+            49.45173196512872
+          ],
+          [
+            -2.571672309755714,
+            49.451629984150486
+          ],
+          [
+            -2.5717179162466928,
+            49.45130125343491
+          ],
+          [
+            -2.5717650945511474,
+            49.45097258351393
+          ],
+          [
+            -2.5717781351303257,
+            49.45085262148647
+          ],
+          [
+            -2.5717969415310074,
+            49.450733002384105
+          ],
+          [
+            -2.5718214449818704,
+            49.45061379822699
+          ],
+          [
+            -2.571851673592354,
+            49.45049518880071
+          ],
+          [
+            -2.57185637697263,
+            49.45048225293513
+          ],
+          [
+            -2.571861287361279,
+            49.45046936174827
+          ],
+          [
+            -2.5718664186061693,
+            49.45045653320421
+          ],
+          [
+            -2.5718717705084413,
+            49.45044370436378
+          ],
+          [
+            -2.5719050492423294,
+            49.45036955303124
+          ],
+          [
+            -2.571943434060733,
+            49.45029648278592
+          ],
+          [
+            -2.5719869529519817,
+            49.45022462845542
+          ],
+          [
+            -2.5720354823728626,
+            49.45015417901811
+          ],
+          [
+            -2.5721145502338767,
+            49.450046005787556
+          ],
+          [
+            -2.572191409036195,
+            49.44993716112034
+          ],
+          [
+            -2.572265989864432,
+            49.44982765410488
+          ],
+          [
+            -2.5723384308691166,
+            49.449717556490384
+          ],
+          [
+            -2.5723599164003366,
+            49.44968239837805
+          ],
+          [
+            -2.5723801736448744,
+            49.44964697217476
+          ],
+          [
+            -2.5723991334790557,
+            49.44961122402616
+          ],
+          [
+            -2.572416851211814,
+            49.449575198815154
+          ],
+          [
+            -2.5724441546168926,
+            49.44950464290972
+          ],
+          [
+            -2.5724739831160495,
+            49.44943453316272
+          ],
+          [
+            -2.572506253953607,
+            49.44936486968367
+          ],
+          [
+            -2.572541050150756,
+            49.449295742272135
+          ],
+          [
+            -2.5726039180215436,
+            49.449176693008695
+          ],
+          [
+            -2.572667696470252,
+            49.449057858272674
+          ],
+          [
+            -2.572732454445195,
+            49.448939237969554
+          ],
+          [
+            -2.5727980677944093,
+            49.44882082327384
+          ],
+          [
+            -2.572853222699102,
+            49.44873132085556
+          ],
+          [
+            -2.572909826803361,
+            49.4486422480365
+          ],
+          [
+            -2.5729678247663728,
+            49.448553550941284
+          ],
+          [
+            -2.5730272855925285,
+            49.44846524745716
+          ],
+          [
+            -2.5730537988480453,
+            49.448432896702826
+          ],
+          [
+            -2.5730758256354993,
+            49.448399149359105
+          ],
+          [
+            -2.5730932289424455,
+            49.44836428434579
+          ],
+          [
+            -2.573105830271455,
+            49.44832854467273
+          ],
+          [
+            -2.5731250072336174,
+            49.448296347685734
+          ]
+        ]
+      },
+      "properties": {
+        "road": "ST. ANDREW - RUE DU MONNAIE",
+        "start_date": "2026-04-20",
+        "end_date": "2026-04-20",
+        "what": "Lifting Operations",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Tree Service Ltd",
+        "reference": "P043016-THS1",
+        "status": "Pending",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.5530873249321924,
+            49.45858722979735
+          ],
+          [
+            -2.5529799207871484,
+            49.458599548671785
+          ],
+          [
+            -2.552769629795996,
+            49.45860179239012
+          ],
+          [
+            -2.55240115641509,
+            49.458590006169906
+          ],
+          [
+            -2.5522087896455923,
+            49.45858454024412
+          ],
+          [
+            -2.5520393278612796,
+            49.45858182551427
+          ],
+          [
+            -2.5518454806964286,
+            49.4585696891489
+          ],
+          [
+            -2.5515440493239887,
+            49.45854454162867
+          ],
+          [
+            -2.5511604418855844,
+            49.45851141469043
+          ],
+          [
+            -2.5508981869346914,
+            49.45848699318062
+          ],
+          [
+            -2.5506934269464803,
+            49.45850418828117
+          ],
+          [
+            -2.550668491312111,
+            49.45850534108933
+          ]
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - ROCQUETTES ROAD",
+        "start_date": "2026-02-23",
+        "end_date": "2026-03-02",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Electricity",
+        "reference": "P043017-GE1",
+        "status": "In Progress",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.602043299194116,
+            49.431129109215185
+          ],
+          [
+            -2.602083804539041,
+            49.43113339610633
+          ],
+          [
+            -2.6021243238123684,
+            49.431137718926465
+          ],
+          [
+            -2.6021648295781885,
+            49.43114211368502
+          ],
+          [
+            -2.60220534913703,
+            49.43114650840728
+          ],
+          [
+            -2.6024528315852145,
+            49.431156900743375
+          ],
+          [
+            -2.6024890262672153,
+            49.43115866784038
+          ],
+          [
+            -2.602506203676029,
+            49.43115871216914
+          ],
+          [
+            -2.60252779451275,
+            49.43115562040289
+          ],
+          [
+            -2.6025568540688746,
+            49.43115167143808
+          ],
+          [
+            -2.6025840884549876,
+            49.431146286779715
+          ],
+          [
+            -2.602618484880539,
+            49.431142796771134
+          ],
+          [
+            -2.602651974205925,
+            49.43114368701218
+          ],
+          [
+            -2.6028514258363242,
+            49.431153868005715
+          ],
+          [
+            -2.603050076959304,
+            49.43116742171216
+          ],
+          [
+            -2.6031248969488003,
+            49.431172075524444
+          ],
+          [
+            -2.6032279458867156,
+            49.431179147390054
+          ],
+          [
+            -2.6033167480214208,
+            49.431181009176804
+          ],
+          [
+            -2.6034252645485596,
+            49.43118300989624
+          ],
+          [
+            -2.603566204026156,
+            49.43118460745482
+          ],
+          [
+            -2.6036183943295654,
+            49.43118740033744
+          ],
+          [
+            -2.603670639782212,
+            49.431190193107355
+          ],
+          [
+            -2.6037228299947923,
+            49.43119295896888
+          ],
+          [
+            -2.6037750754591142,
+            49.431195751691575
+          ],
+          [
+            -2.6038273763463127,
+            49.431198616232024
+          ],
+          [
+            -2.603879581149296,
+            49.431201588800874
+          ],
+          [
+            -2.6039228784260473,
+            49.431204081243976
+          ],
+          [
+            -2.6039661343496117,
+            49.43120657373779
+          ],
+          [
+            -2.6040094456948397,
+            49.4312091380567
+          ],
+          [
+            -2.604052743395669,
+            49.43121173834701
+          ],
+          [
+            -2.604096055572011,
+            49.43121451842521
+          ],
+          [
+            -2.6041393544813625,
+            49.43121743337939
+          ],
+          [
+            -2.6041710842655927,
+            49.431219629782696
+          ],
+          [
+            -2.6042028141897635,
+            49.431221862142536
+          ],
+          [
+            -2.6042345444938704,
+            49.431224193398265
+          ],
+          [
+            -2.604266275109579,
+            49.43122660556714
+          ],
+          [
+            -2.6042980474631054,
+            49.431229116564786
+          ],
+          [
+            -2.604329668724409,
+            49.43123177166092
+          ],
+          [
+            -2.6043547257661253,
+            49.431233870945185
+          ],
+          [
+            -2.60437976874966,
+            49.43123589831583
+          ],
+          [
+            -2.604405032617609,
+            49.431238006244875
+          ],
+          [
+            -2.6044303525233317,
+            49.431240347853226
+          ],
+          [
+            -2.60445572908506,
+            49.43124308498469
+          ],
+          [
+            -2.604481052359866,
+            49.43124630773149
+          ],
+          [
+            -2.604502281241091,
+            49.4312495371231
+          ],
+          [
+            -2.60452323578151,
+            49.431253126611495
+          ],
+          [
+            -2.6045439292866064,
+            49.431256950296046
+          ],
+          [
+            -2.6045644163162676,
+            49.43126085523473
+          ],
+          [
+            -2.6045846826381123,
+            49.43126472456292
+          ],
+          [
+            -2.6046049344903177,
+            49.43126841408355
+          ],
+          [
+            -2.604626703304812,
+            49.43127223600572
+          ],
+          [
+            -2.6046485824439114,
+            49.4312760667359
+          ],
+          [
+            -2.604670406305524,
+            49.431279861586276
+          ],
+          [
+            -2.6046922853139063,
+            49.43128365634284
+          ],
+          [
+            -2.604714164291309,
+            49.431287442103965
+          ],
+          [
+            -2.6047381540210353,
+            49.43129162004893
+          ],
+          [
+            -2.604798253643518,
+            49.43130778769774
+          ],
+          [
+            -2.604857511996109,
+            49.43132746332157
+          ],
+          [
+            -2.604905401579898,
+            49.43134473874002
+          ],
+          [
+            -2.6049294242661483,
+            49.431332300525604
+          ],
+          [
+            -2.604983530114305,
+            49.431313240625876
+          ],
+          [
+            -2.605084361799129,
+            49.43127756943784
+          ],
+          [
+            -2.605283427921067,
+            49.431201312749465
+          ],
+          [
+            -2.605384718483386,
+            49.431159598344166
+          ],
+          [
+            -2.6054801316831173,
+            49.431113145998175
+          ],
+          [
+            -2.60554104031542,
+            49.43107431168044
+          ],
+          [
+            -2.6055776887568554,
+            49.43103985979828
+          ]
+        ]
+      },
+      "properties": {
+        "road": "FOREST - LES NOUETTES",
+        "start_date": "2026-02-24",
+        "end_date": "2026-02-25",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Water",
+        "reference": "P043020-GW1",
+        "status": "In Progress",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.6493432694932313,
+            49.43954927726865
+          ],
+          [
+            -2.649365433531163,
+            49.43955352155806
+          ],
+          [
+            -2.649408174110254,
+            49.43956161769864
+          ],
+          [
+            -2.649450928321286,
+            49.43956967783046
+          ],
+          [
+            -2.649490977260905,
+            49.43957714996239
+          ],
+          [
+            -2.6495310674067825,
+            49.43958458603194
+          ],
+          [
+            -2.6495711436062774,
+            49.43959198615019
+          ],
+          [
+            -2.649611274629685,
+            49.43959931421316
+          ],
+          [
+            -2.649651432730137,
+            49.43960653431129
+          ],
+          [
+            -2.6496916451854946,
+            49.43961358344991
+          ],
+          [
+            -2.649733264385011,
+            49.439620701670556
+          ],
+          [
+            -2.649774965473072,
+            49.439627639883824
+          ],
+          [
+            -2.6498167072979273,
+            49.43963444312934
+          ],
+          [
+            -2.649858476540072,
+            49.43964121033907
+          ],
+          [
+            -2.6499002594112486,
+            49.43964794154078
+          ],
+          [
+            -2.6499420010572883,
+            49.4396546997846
+          ],
+          [
+            -2.649978113005534,
+            49.43966059720791
+          ],
+          [
+            -2.650014224663743,
+            49.43966643168096
+          ],
+          [
+            -2.6500503776523145,
+            49.43967225706799
+          ],
+          [
+            -2.6500864894556106,
+            49.43967811849226
+          ],
+          [
+            -2.650122573861858,
+            49.43968401592607
+          ],
+          [
+            -2.6501318469404014,
+            49.43968556170507
+          ],
+          [
+            -2.650190273324842,
+            49.43969539719017
+          ],
+          [
+            -2.6502218885507713,
+            49.439700916988265
+          ],
+          [
+            -2.650253448801834,
+            49.43970647285415
+          ],
+          [
+            -2.6502850640846303,
+            49.4397120016262
+          ],
+          [
+            -2.650316678819178,
+            49.4397174135029
+          ],
+          [
+            -2.6503308642620618,
+            49.43971974058179
+          ],
+          [
+            -2.6503484028834428,
+            49.439722618348526
+          ],
+          [
+            -2.650365389466828,
+            49.43972538933175
+          ],
+          [
+            -2.650382307794888,
+            49.43972830431228
+          ],
+          [
+            -2.650399294766726,
+            49.439731156211984
+          ],
+          [
+            -2.650416267225854,
+            49.43973385528533
+          ],
+          [
+            -2.6504333487101364,
+            49.43973628439469
+          ],
+          [
+            -2.650450524533534,
+            49.439738254751035
+          ],
+          [
+            -2.6504671738852545,
+            49.439739695678384
+          ],
+          [
+            -2.650483917746078,
+            49.43974071381799
+          ],
+          [
+            -2.6505007569705654,
+            49.439741488995374
+          ],
+          [
+            -2.6505176229169187,
+            49.43974208428888
+          ],
+          [
+            -2.650534488692628,
+            49.43974264361484
+          ],
+          [
+            -2.650551313489,
+            49.43974328394352
+          ],
+          [
+            -2.6505784951824176,
+            49.439744316925704
+          ],
+          [
+            -2.6506057041111726,
+            49.43974527791544
+          ],
+          [
+            -2.650632898440017,
+            49.43974606809235
+          ],
+          [
+            -2.6506601060445893,
+            49.439746750339566
+          ],
+          [
+            -2.65068731245185,
+            49.439747180824504
+          ],
+          [
+            -2.650714531877567,
+            49.439747449432026
+          ],
+          [
+            -2.650735380090261,
+            49.43974750614392
+          ],
+          [
+            -2.650756255579787,
+            49.439747499857276
+          ],
+          [
+            -2.6507770890627302,
+            49.43974735878134
+          ],
+          [
+            -2.650797963353602,
+            49.43974710073127
+          ],
+          [
+            -2.6508188094257172,
+            49.439746707864025
+          ],
+          [
+            -2.6508396136191656,
+            49.43974620718138
+          ],
+          [
+            -2.6508681368855513,
+            49.439745205329736
+          ],
+          [
+            -2.6508965896681445,
+            49.439743879924556
+          ],
+          [
+            -2.6509250552523302,
+            49.43974234768491
+          ],
+          [
+            -2.6509534786562887,
+            49.43974064468773
+          ],
+          [
+            -2.650981942865884,
+            49.439738824713125
+          ],
+          [
+            -2.651010338175303,
+            49.43973701386248
+          ],
+          [
+            -2.651037561486836,
+            49.439735205379925
+          ],
+          [
+            -2.651064742917504,
+            49.439733289079435
+          ],
+          [
+            -2.6510919377914064,
+            49.43973130081434
+          ],
+          [
+            -2.6511191321486387,
+            49.439729204647506
+          ],
+          [
+            -2.651146285181895,
+            49.43972711754942
+          ],
+          [
+            -2.651173451786613,
+            49.43972498546055
+          ],
+          [
+            -2.6512027678445524,
+            49.43972253430845
+          ],
+          [
+            -2.65123205533681,
+            49.439719876405384
+          ],
+          [
+            -2.6512613426543146,
+            49.43971718252976
+          ],
+          [
+            -2.6512906304833335,
+            49.43971459654209
+          ],
+          [
+            -2.6513199749634957,
+            49.439712325129975
+          ],
+          [
+            -2.6513493769534837,
+            49.43971054811902
+          ],
+          [
+            -2.6513753330555363,
+            49.4397090208608
+          ],
+          [
+            -2.6514014129062056,
+            49.439707421414674
+          ],
+          [
+            -2.6514275349351766,
+            49.439705992713066
+          ],
+          [
+            -2.6514535634930683,
+            49.43970520258246
+          ],
+          [
+            -2.6514794723354305,
+            49.439705329808696
+          ],
+          [
+            -2.651505153133272,
+            49.439706788214764
+          ],
+          [
+            -2.651522093387491,
+            49.439708507131996
+          ],
+          [
+            -2.651539022388218,
+            49.4397107565604
+          ],
+          [
+            -2.6515558568916484,
+            49.43971342877258
+          ],
+          [
+            -2.6515725963827554,
+            49.43971641587316
+          ],
+          [
+            -2.651589254134702,
+            49.439719609938884
+          ],
+          [
+            -2.651605761077864,
+            49.4397229841359
+          ],
+          [
+            -2.6516259551812285,
+            49.4397275466918
+          ],
+          [
+            -2.6516458760163895,
+            49.439732631298746
+          ],
+          [
+            -2.6516656470330853,
+            49.439738102835605
+          ],
+          [
+            -2.651685294819838,
+            49.43974375444683
+          ],
+          [
+            -2.6517049288229315,
+            49.43974940608277
+          ],
+          [
+            -2.651724672276527,
+            49.43975487766548
+          ],
+          [
+            -2.651752091381768,
+            49.439762302752484
+          ],
+          [
+            -2.651779524283479,
+            49.43976972780493
+          ],
+          [
+            -2.651806943577191,
+            49.439777188844026
+          ],
+          [
+            -2.6518343077264395,
+            49.43978464998875
+          ],
+          [
+            -2.651861713420569,
+            49.43979214700797
+          ],
+          [
+            -2.651889050526066,
+            49.43979971609118
+          ],
+          [
+            -2.651920957385213,
+            49.43980849869846
+          ],
+          [
+            -2.651952795486789,
+            49.439817317402316
+          ],
+          [
+            -2.6519846476030704,
+            49.43982618102574
+          ],
+          [
+            -2.65201644487915,
+            49.43983510769156
+          ],
+          [
+            -2.6520482147624773,
+            49.43984407036983
+          ],
+          [
+            -2.652079943593969,
+            49.4398530960625
+          ],
+          [
+            -2.6521025729146706,
+            49.43985940689497
+          ],
+          [
+            -2.652125325689422,
+            49.43986558260116
+          ],
+          [
+            -2.6521480646385838,
+            49.439871749339616
+          ],
+          [
+            -2.6521706393403734,
+            49.43987816816642
+          ],
+          [
+            -2.6521928848099514,
+            49.43988493832269
+          ],
+          [
+            -2.652214705520615,
+            49.43989226680456
+          ],
+          [
+            -2.6522340025178837,
+            49.43989950151782
+          ],
+          [
+            -2.6522530526247716,
+            49.439907006471834
+          ],
+          [
+            -2.6522720889923317,
+            49.43991452044206
+          ]
+        ]
+      },
+      "properties": {
+        "road": "ST. PIERRE DU BOIS - ROUTE DU COUDRE",
+        "start_date": "2026-04-27",
+        "end_date": "2026-04-29",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Electricity",
+        "reference": "P043021-GE1",
+        "status": "Pending",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.531562961563014,
+            49.4905888933717
+          ],
+          [
+            -2.531546369277958,
+            49.49061770892116
+          ],
+          [
+            -2.5315271370048413,
+            49.4909517091213
+          ],
+          [
+            -2.5315209290657097,
+            49.491059295948354
+          ],
+          [
+            -2.5315203053200723,
+            49.49109357132605
+          ],
+          [
+            -2.5315252299445357,
+            49.49112770632573
+          ],
+          [
+            -2.5315357157644525,
+            49.49116127834385
+          ],
+          [
+            -2.5315515963796695,
+            49.4911939548668
+          ],
+          [
+            -2.53157263629075,
+            49.491225367483786
+          ],
+          [
+            -2.531598696573387,
+            49.491255129705095
+          ],
+          [
+            -2.531626316176959,
+            49.491284710545294
+          ],
+          [
+            -2.5316485570987783,
+            49.49131615791966
+          ],
+          [
+            -2.5316650731878068,
+            49.49134901362014
+          ],
+          [
+            -2.531675725605721,
+            49.49138293611859
+          ],
+          [
+            -2.5317655177792444,
+            49.49169114878362
+          ],
+          [
+            -2.5317812689291515,
+            49.49173911057479
+          ],
+          [
+            -2.5318008420968914,
+            49.491786466144
+          ],
+          [
+            -2.5318242369975734,
+            49.491833089611745
+          ],
+          [
+            -2.531851370528141,
+            49.491878855180545
+          ],
+          [
+            -2.5318816847111543,
+            49.49193302442027
+          ],
+          [
+            -2.5319113644268105,
+            49.49198736511792
+          ],
+          [
+            -2.5319403267711147,
+            49.492041841391476
+          ],
+          [
+            -2.531968654580825,
+            49.49209646215015
+          ],
+          [
+            -2.532055795185079,
+            49.49227943768676
+          ],
+          [
+            -2.5320785408646698,
+            49.49230217192148
+          ]
+        ]
+      },
+      "properties": {
+        "road": "VALE - LE FRIQUET",
+        "start_date": "2026-02-23",
+        "end_date": "2026-03-02",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Electricity",
+        "reference": "P043022-GE1",
+        "status": "In Progress",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.5362774941824453,
+            49.4599738205974
+          ],
+          [
+            -2.5362898152746474,
+            49.45998641369795
+          ],
+          [
+            -2.5362976567740017,
+            49.46000042306902
+          ],
+          [
+            -2.53630076872263,
+            49.460015165629116
+          ],
+          [
+            -2.5362925401639287,
+            49.46006315186844
+          ],
+          [
+            -2.5362769713062403,
+            49.460110372443474
+          ],
+          [
+            -2.5362541850060922,
+            49.460156305727175
+          ],
+          [
+            -2.5362243871052463,
+            49.460200519918764
+          ],
+          [
+            -2.5362002141048783,
+            49.46023214942136
+          ],
+          [
+            -2.53617182653375,
+            49.4602777737798
+          ],
+          [
+            -2.536134988381931,
+            49.46033122931504
+          ],
+          [
+            -2.536104586809017,
+            49.46037120019111
+          ],
+          [
+            -2.53607025053398,
+            49.46040979944765
+          ],
+          [
+            -2.536032241310294,
+            49.460446891941196
+          ],
+          [
+            -2.53599068293067,
+            49.46048233367917
+          ],
+          [
+            -2.5359124300384837,
+            49.46054535367486
+          ],
+          [
+            -2.5358277553710233,
+            49.46062243367787
+          ],
+          [
+            -2.535709771496055,
+            49.460723950367075
+          ],
+          [
+            -2.535597082230514,
+            49.4608246882359
+          ],
+          [
+            -2.535431814775552,
+            49.46095642813977
+          ],
+          [
+            -2.5354264040317194,
+            49.46096073154967
+          ],
+          [
+            -2.535251592814319,
+            49.46109935036502
+          ],
+          [
+            -2.535048075951896,
+            49.46125571120896
+          ],
+          [
+            -2.534913340263081,
+            49.461356264163015
+          ],
+          [
+            -2.534864051612212,
+            49.46140731334375
+          ],
+          [
+            -2.5348530247906704,
+            49.46143960347256
+          ]
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - LES CANICHERS",
+        "start_date": "2026-03-10",
+        "end_date": "2026-03-10",
+        "what": "Loading / Unloading",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "White and Company",
+        "reference": "P043023-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.5446783236082386,
+            49.453959318495784
+          ],
+          [
+            -2.5446913703575125,
+            49.45396432122197
+          ],
+          [
+            -2.545073643140848,
+            49.45411952852857
+          ],
+          [
+            -2.5453860823268823,
+            49.45424642665314
+          ],
+          [
+            -2.5457407378128702,
+            49.454382349087055
+          ],
+          [
+            -2.54581203914172,
+            49.454411770074444
+          ],
+          [
+            -2.5458800662868124,
+            49.45444435962655
+          ],
+          [
+            -2.545944322515539,
+            49.45448003738217
+          ],
+          [
+            -2.5460046003305132,
+            49.45451856980485
+          ],
+          [
+            -2.5462727642752383,
+            49.45469015701916
+          ],
+          [
+            -2.5463101639262136,
+            49.45471417592307
+          ]
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - VICTORIA ROAD",
+        "start_date": "2026-03-05",
+        "end_date": "2026-03-06",
+        "what": "Loading / Unloading",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Diamond Group Ltd",
+        "reference": "P043024-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.5391495618944973,
+            49.457470101046624
+          ],
+          [
+            -2.5390348163840266,
+            49.45766985705548
+          ],
+          [
+            -2.5390220655491422,
+            49.45770077375377
+          ],
+          [
+            -2.5388891620960967,
+            49.45800954174165
+          ],
+          [
+            -2.5388412620984777,
+            49.45811681397831
+          ],
+          [
+            -2.5388038378917077,
+            49.458193495613195
+          ],
+          [
+            -2.538761086229215,
+            49.45826895104625
+          ],
+          [
+            -2.538712937764971,
+            49.458343036483576
+          ],
+          [
+            -2.538659612750662,
+            49.45841558085079
+          ],
+          [
+            -2.538588857915257,
+            49.45850142376259
+          ],
+          [
+            -2.5385493398746326,
+            49.45853501206791
+          ],
+          [
+            -2.5385052912088617,
+            49.45856606957676
+          ]
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - ST. JULIAN`S AVENUE",
+        "start_date": "2026-04-13",
+        "end_date": "2026-04-13",
+        "what": "Loading / Unloading",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "White and Company",
+        "reference": "P043026-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.5409254395215752,
+            49.45228413472479
+          ],
+          [
+            -2.5409719316222037,
+            49.45232771075233
+          ],
+          [
+            -2.541014331890228,
+            49.45237297254092
+          ],
+          [
+            -2.54105270893658,
+            49.45241978515096
+          ],
+          [
+            -2.5410867175022687,
+            49.45246796913112
+          ],
+          [
+            -2.5411498503653243,
+            49.452596171662194
+          ],
+          [
+            -2.541163051112022,
+            49.452635036009205
+          ],
+          [
+            -2.541178683704209,
+            49.45268109980006
+          ],
+          [
+            -2.5411888188675373,
+            49.452707568385605
+          ],
+          [
+            -2.541194224850291,
+            49.452734608516515
+          ]
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - LOWER VAUVERT",
+        "start_date": "2026-03-11",
+        "end_date": "2026-03-18",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Water",
+        "reference": "P043028-GW1-D",
+        "status": "Pending",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.530888289402259,
+            49.44678854908861
+          ],
+          [
+            -2.530868665766442,
+            49.44683601851249
+          ],
+          [
+            -2.5308439989663145,
+            49.44693277179638
+          ],
+          [
+            -2.5307475614674324,
+            49.447134084348654
+          ],
+          [
+            -2.5306960970031027,
+            49.4472416446518
+          ],
+          [
+            -2.530669465476526,
+            49.44730015063388
+          ],
+          [
+            -2.5306494558897854,
+            49.44735977400177
+          ],
+          [
+            -2.5306360122909917,
+            49.447420164151495
+          ],
+          [
+            -2.5306293683910503,
+            49.44748099716651
+          ],
+          [
+            -2.530629509882674,
+            49.447542039287086
+          ],
+          [
+            -2.5306363807329757,
+            49.44760290394033
+          ],
+          [
+            -2.5306482271645723,
+            49.44766850212934
+          ],
+          [
+            -2.530666153848985,
+            49.44773349190312
+          ],
+          [
+            -2.5306900638171235,
+            49.44779767554487
+          ],
+          [
+            -2.530719832454802,
+            49.44786082839016
+          ],
+          [
+            -2.53075585411751,
+            49.44792054036444
+          ],
+          [
+            -2.53079832568743,
+            49.44797844769281
+          ],
+          [
+            -2.5308470396136347,
+            49.44803424486735
+          ],
+          [
+            -2.5309016917654388,
+            49.448087608492195
+          ],
+          [
+            -2.530972931746142,
+            49.44814584699049
+          ],
+          [
+            -2.5310500941763254,
+            49.44820077077176
+          ],
+          [
+            -2.5311329576978885,
+            49.44825207433744
+          ],
+          [
+            -2.531220983971205,
+            49.44829954241632
+          ],
+          [
+            -2.5314598469851513,
+            49.44841517706682
+          ],
+          [
+            -2.5314877238746116,
+            49.44842947260967
+          ],
+          [
+            -2.531515339428799,
+            49.448444056128395
+          ],
+          [
+            -2.531542638401043,
+            49.44845889171259
+          ],
+          [
+            -2.531569551795909,
+            49.448473961448364
+          ],
+          [
+            -2.531596148693103,
+            49.448489319215426
+          ],
+          [
+            -2.5316223600550543,
+            49.44850492911726
+          ],
+          [
+            -2.531648254793452,
+            49.448520773102864
+          ],
+          [
+            -2.531673777787438,
+            49.44853686921002
+          ],
+          [
+            -2.5316989703251744,
+            49.44855318143244
+          ],
+          [
+            -2.531723791160596,
+            49.44856976375954
+          ],
+          [
+            -2.5317442971690043,
+            49.448587060690784
+          ],
+          [
+            -2.5317649685125856,
+            49.44860428552315
+          ],
+          [
+            -2.531785695033738,
+            49.448621510296796
+          ],
+          [
+            -2.5318065317270584,
+            49.448638663026266
+          ],
+          [
+            -2.5318274235138363,
+            49.448655779731666
+          ],
+          [
+            -2.531848411703131,
+            49.448672833397836
+          ],
+          [
+            -2.5318694687555636,
+            49.448689842034796
+          ],
+          [
+            -2.5318906223792066,
+            49.448706859563025
+          ],
+          [
+            -2.5319118861751875,
+            49.44872380504677
+          ],
+          [
+            -2.531922732120562,
+            49.44873239895708
+          ],
+          [
+            -2.5319332049593073,
+            49.44874066954972
+          ],
+          [
+            -2.532122880101338,
+            49.448874055793794
+          ],
+          [
+            -2.5323886482931672,
+            49.449045821598396
+          ],
+          [
+            -2.532665995596538,
+            49.44921455408298
+          ],
+          [
+            -2.53277495831773,
+            49.44927892168343
+          ],
+          [
+            -2.532849389744454,
+            49.44931456955224
+          ],
+          [
+            -2.5329267248584486,
+            49.449347544024796
+          ],
+          [
+            -2.53300668749298,
+            49.449377701511494
+          ],
+          [
+            -2.5330890016703678,
+            49.44940497934532
+          ],
+          [
+            -2.533189874647403,
+            49.44943638343432
+          ],
+          [
+            -2.5332932078531742,
+            49.449464206399185
+          ],
+          [
+            -2.5333987525828108,
+            49.44948825966614
+          ],
+          [
+            -2.533506163997215,
+            49.449508525594766
+          ],
+          [
+            -2.5337810924720485,
+            49.449562294504666
+          ],
+          [
+            -2.5338709361003526,
+            49.44958327920694
+          ],
+          [
+            -2.533958320926756,
+            49.44960833941198
+          ],
+          [
+            -2.5340428603905267,
+            49.449637295690835
+          ],
+          [
+            -2.5341240164406496,
+            49.44967005868259
+          ],
+          [
+            -2.534281429086259,
+            49.44975699786839
+          ],
+          [
+            -2.534560250302512,
+            49.44990911728095
+          ],
+          [
+            -2.534677129639008,
+            49.449966263954785
+          ],
+          [
+            -2.534738503494195,
+            49.44999627736256
+          ],
+          [
+            -2.534950554086953,
+            49.45008689125015
+          ],
+          [
+            -2.5350978324812217,
+            49.450139276957366
+          ],
+          [
+            -2.53513462884735,
+            49.45015129666517
+          ],
+          [
+            -2.535197701076533,
+            49.45017050948491
+          ],
+          [
+            -2.535248161862251,
+            49.45018710972867
+          ],
+          [
+            -2.5352964222507843,
+            49.45020626574888
+          ],
+          [
+            -2.535342109840915,
+            49.450227959947824
+          ],
+          [
+            -2.5353849895775795,
+            49.45025194081213
+          ],
+          [
+            -2.535424924049931,
+            49.450278415286846
+          ],
+          [
+            -2.5354637294874283,
+            49.45030563718888
+          ],
+          [
+            -2.53550133671632,
+            49.45033351667699
+          ],
+          [
+            -2.5355377733620834,
+            49.450362071706614
+          ],
+          [
+            -2.535575226606916,
+            49.450379280402224
+          ],
+          [
+            -2.535621854974249,
+            49.45037757624878
+          ]
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - LA VALLETTE",
+        "start_date": "2026-03-02",
+        "end_date": "2026-03-28",
+        "what": "Loading / Unloading",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Another Level Ltd",
+        "reference": "P043029-THS1",
+        "status": "Approved",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            -2.637486960885278,
+            49.45620944237456
+          ],
+          [
+            -2.6375039694411644,
+            49.45621906660178
+          ],
+          [
+            -2.637520483078085,
+            49.45622905142525
+          ],
+          [
+            -2.637536501715281,
+            49.45623937886258
+          ],
+          [
+            -2.637551983893527,
+            49.45625003101042
+          ],
+          [
+            -2.6375788624504994,
+            49.45626757573165
+          ],
+          [
+            -2.6376083532998162,
+            49.45628325424879
+          ],
+          [
+            -2.6376260008313643,
+            49.456290800237504
+          ],
+          [
+            -2.6376333771458884,
+            49.45629935489421
+          ]
+        ]
+      },
+      "properties": {
+        "road": "ST. SAVIOUR - CHEMIN LE ROI",
+        "start_date": "2026-02-27",
+        "end_date": "2026-02-27",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Electricity",
+        "reference": "P043036-GE1",
+        "status": "Pending",
+        "tm_type": "",
+        "source": "merged"
+      }
     }
   ],
   "metadata": {
-    "built_at": "2026-02-23T06:56:27Z"
+    "built_at": "2026-02-24T10:21:29Z"
   }
 }
