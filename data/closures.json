@@ -7478,29 +7478,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.523049605521768,
-          49.4851909690119
-        ]
-      },
-      "properties": {
-        "road": "ST. SAMPSON - LOWLANDS ROAD",
-        "start_date": "2026-07-13",
-        "end_date": "2026-07-13",
-        "what": "Utility Works",
-        "description": "Works",
-        "bus_routes": [],
-        "contractor": "Guernsey Water (Wastewater)",
-        "reference": "P044893-GWW1",
-        "status": "Pending",
-        "tm_type": "",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.5448714954067815,
           49.46058113047237
         ]
@@ -7516,29 +7493,6 @@
         "reference": "P044894-THS1",
         "status": "Approved",
         "tm_type": "Signing Only",
-        "source": "merged"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.5227254147352216,
-          49.47958121378154
-        ]
-      },
-      "properties": {
-        "road": "ST. SAMPSON - MONT MORIN",
-        "start_date": "2026-07-14",
-        "end_date": "2026-07-14",
-        "what": "Cleaning / Cabling",
-        "description": "Works",
-        "bus_routes": [],
-        "contractor": "Guernsey Water (Wastewater)",
-        "reference": "P044895-GWW1",
-        "status": "Pending",
-        "tm_type": "",
         "source": "merged"
       }
     },
@@ -7629,7 +7583,7 @@
         "bus_routes": [],
         "contractor": "Guernsey Electricity",
         "reference": "P044902-GE1",
-        "status": "Pending",
+        "status": "Approved",
         "tm_type": "",
         "source": "merged"
       }
@@ -7662,8 +7616,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.5399416636332632,
-          49.460117872834914
+          -2.539562821932425,
+          49.460146757876316
         ]
       },
       "properties": {
@@ -7682,6 +7636,6 @@
     }
   ],
   "metadata": {
-    "built_at": "2026-06-29T09:49:34Z"
+    "built_at": "2026-06-29T10:27:54Z"
   }
 }
