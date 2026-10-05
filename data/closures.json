@@ -5610,6 +5610,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -2.5146932922646634,
+          49.483594707332294
+        ]
+      },
+      "properties": {
+        "road": "VALE - NORTH SIDE",
+        "start_date": "2026-11-09",
+        "end_date": "2026-11-16",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Water",
+        "reference": "P046328-GW1-D",
+        "status": "Pending",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -2.5146632083501146,
           49.48400473019964
         ]
@@ -5625,6 +5648,29 @@
         "reference": "P046333-GW1-D",
         "status": "Approved",
         "tm_type": "Road Closure",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5158604498690385,
+          49.483994396773845
+        ]
+      },
+      "properties": {
+        "road": "VALE - TRAFALGAR ROAD",
+        "start_date": "2026-12-14",
+        "end_date": "2026-12-17",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Water",
+        "reference": "P046334-GW1-D",
+        "status": "Pending",
+        "tm_type": "",
         "source": "merged"
       }
     },
@@ -6133,9 +6179,78 @@
         "tm_type": "",
         "source": "merged"
       }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.564017519787626,
+          49.454306983514655
+        ]
+      },
+      "properties": {
+        "road": "ST. ANDREW - LES RUETTES",
+        "start_date": "2026-11-02",
+        "end_date": "2026-11-09",
+        "what": "Road Side Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Tarmac Services",
+        "reference": "P046427-TS",
+        "status": "Pending",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.5415932066542424,
+          49.45109618949742
+        ]
+      },
+      "properties": {
+        "road": "ST. PETER PORT - PARK STREET",
+        "start_date": "2026-10-19",
+        "end_date": "2026-11-19",
+        "what": "Loading / Unloading",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Private Individual",
+        "reference": "P046429-THS2",
+        "status": "Pending",
+        "tm_type": "",
+        "source": "merged"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.521001676619084,
+          49.483384041206605
+        ]
+      },
+      "properties": {
+        "road": "ST. SAMPSON - COMMERCIAL ROAD",
+        "start_date": "2026-12-07",
+        "end_date": "2026-12-09",
+        "what": "Utility Works",
+        "description": "Works",
+        "bus_routes": [],
+        "contractor": "Guernsey Electricity",
+        "reference": "P046431-GE1",
+        "status": "Pending",
+        "tm_type": "",
+        "source": "merged"
+      }
     }
   ],
   "metadata": {
-    "built_at": "2026-10-05T11:12:10Z"
+    "built_at": "2026-10-05T13:10:04Z"
   }
 }
