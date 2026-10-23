@@ -6,6 +6,7 @@ on:
       - build_data.py
       - requirements.txt
       - index.html
+      - briefing.html
       - assets/**
       - .github/workflows/update.yml
   schedule:
@@ -69,7 +70,7 @@ jobs:
       - name: Stage site
         run: |
           mkdir -p _site/data
-          cp index.html _site/
+          cp index.html briefing.html _site/
           cp -r assets _site/
           cp data/roadworks.json _site/data/
 

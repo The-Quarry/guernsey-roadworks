@@ -1,0 +1,128 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Roads this week | Briefing block</title>
+  <link rel="icon" href="assets/thequarry-logo.png" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Space+Grotesk:wght@500;700&display=swap" />
+  <style>
+    :root{--yellow:#f8fd98;--ink:#111;--muted:#5d5d57;--line:#e4e4dc}
+    *{box-sizing:border-box}
+    body{margin:0;font:15px/1.5 Poppins,system-ui,sans-serif;color:var(--ink);background:#fff}
+    header{background:var(--yellow);border-bottom:1.5px solid var(--ink);padding:16px 20px}
+    h1{font:700 24px/1.1 "Space Grotesk",sans-serif;margin:0}
+    .wrap{max-width:760px;margin:0 auto;padding:20px}
+    .bar{display:flex;flex-wrap:wrap;gap:10px;align-items:end;margin-bottom:16px}
+    label{font-size:13px;color:var(--muted)}
+    input{display:block;height:38px;border:1.5px solid var(--ink);border-radius:8px;padding:0 8px;font:inherit}
+    button{height:40px;border:1.5px solid var(--ink);border-radius:999px;padding:0 18px;font:600 14px Poppins,sans-serif;background:var(--ink);color:var(--yellow);cursor:pointer}
+    button.ghost{background:#fff;color:var(--ink)}
+    .note{font-size:13px;color:var(--muted)}
+    #out{border:1.5px solid var(--ink);border-radius:12px;padding:4px 20px 12px;font-family:Georgia,serif;font-size:17px;line-height:1.55}
+    #out h3{font-family:"Space Grotesk",sans-serif}
+    #out a{color:inherit}
+    #out li{margin-bottom:4px}
+  </style>
+</head>
+<body>
+<header><h1>Roads this week: block for The Weekly Briefing</h1></header>
+<div class="wrap">
+  <div class="bar">
+    <label>Week starts<input type="date" id="from" /></label>
+    <button id="copy">Copy for Ghost</button>
+    <button class="ghost" id="copyText">Copy as plain text</button>
+    <span class="note" id="status"></span>
+  </div>
+  <p class="note">Covers road closures starting from the Thursday after the Briefing goes out to the following Wednesday, plus closures already in place that affect bus routes. Paste into the Ghost editor; links go to each job on the map.</p>
+  <div id="out">Loading…</div>
+</div>
+<script>
+(() => {
+  const MAP = 'https://roadworks.thequarry.media/';
+  const DAY = 864e5;
+  const sod = d => new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  const addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n); // calendar days, safe across clock changes
+  const iso = d => `${d.getFullYear()}-${String(d.getMonth() + 1).padStart(2, '0')}-${String(d.getDate()).padStart(2, '0')}`;
+  const longDay = d => d.toLocaleDateString('en-GB', { weekday: 'long', day: 'numeric', month: 'long' });
+  const shortDay = d => d.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
+  const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  const tidy = s => {
+    s = String(s || '').split(';')[0].trim().replace(/\s+/g, ' ');
+    if (s && s === s.toUpperCase()) s = s.toLowerCase();
+    s = s.charAt(0).toUpperCase() + s.slice(1);
+    return s.length > 90 ? s.slice(0, 87).replace(/\s+\S*$/, '') + '…' : s;
+  };
+  const buses = r => !r.length ? '' : (r.length === 1 ? ` Bus ${r[0]}.` : ` Buses ${r.join(', ')}.`);
+  const hours = t => t && t !== 'All Day' ? ` ${t === 'After PM Peak' ? 'After the evening peak' : 'Between peaks'}.` : '';
+
+  // Default: the Thursday after today (tomorrow if today is Wednesday).
+  const params = new URLSearchParams(location.search);
+  let from = params.get('from') ? new Date(params.get('from') + 'T00:00') : (() => { let d = addDays(new Date(), 1); while (d.getDay() !== 4) d = addDays(d, 1); return d; })();
+  const fromEl = document.getElementById('from');
+  fromEl.value = iso(from);
+
+  let data;
+  fetch('data/roadworks.json', { cache: 'no-cache' }).then(r => r.json()).then(fc => { data = fc; render(); });
+  fromEl.onchange = () => { from = new Date(fromEl.value + 'T00:00'); render(); };
+
+  let html = '', text = '';
+  function render() {
+    const to = addDays(from, 7);           // exclusive
+    const jobs = data.features.map(f => f.properties).filter(p => p.category === 'closure')
+      .map(p => ({ ...p, s: new Date(p.start), e: new Date(p.end) }));
+    const starting = jobs.filter(p => p.s >= from && p.s < to).sort((a, b) => a.s - b.s || a.road.localeCompare(b.road));
+    const ongoing = jobs.filter(p => p.s < from && p.e >= from && (p.bus_routes || []).length).sort((a, b) => a.e - b.e);
+    const onBus = starting.filter(p => (p.bus_routes || []).length).length;
+    const last = addDays(to, -1);
+
+    const line = p => {
+      const multi = sod(p.e) > sod(p.s);
+      const until = multi ? ` Until ${shortDay(p.e)}.` : '';
+      const what = tidy(p.description || p.work_type);
+      return { road: p.road, href: `${MAP}?job=${encodeURIComponent(p.id)}`,
+        rest: `${p.parish ? ', ' + p.parish : ''}${what ? ': ' + what.replace(/\.$/, '') + '.' : '.'}${until}${hours(p.timing)}${buses(p.bus_routes || [])}` };
+    };
+
+    const intro = `${starting.length} road ${starting.length === 1 ? 'closure starts' : 'closures start'} between ${longDay(from)} and ${longDay(last)}` +
+      (onBus ? `, ${onBus} of them on bus routes` : '') + '.';
+    html = `<h3>Roads this week</h3><p>${esc(intro)} <a href="${MAP}">Check your road or bus route on our live map</a>, updated every two hours.</p>`;
+    text = `Roads this week\n\n${intro} Check your road or bus route: ${MAP}\n`;
+    let day = '';
+    let open = false;
+    for (const p of starting) {
+      const d = longDay(p.s);
+      if (d !== day) { if (open) html += '</ul>'; html += `<p><strong>${esc(d)}</strong></p><ul>`; text += `\n${d}\n`; day = d; open = true; }
+      const l = line(p);
+      html += `<li><a href="${esc(l.href)}">${esc(l.road)}</a>${esc(l.rest)}</li>`;
+      text += `- ${l.road}${l.rest}\n`;
+    }
+    if (open) html += '</ul>';
+    if (ongoing.length) {
+      html += `<p><strong>Already closed, on bus routes</strong></p><ul>`;
+      text += `\nAlready closed, on bus routes\n`;
+      for (const p of ongoing) { const l = line(p); html += `<li><a href="${esc(l.href)}">${esc(l.road)}</a>${esc(l.rest)}</li>`; text += `- ${l.road}${l.rest}\n`; }
+      html += '</ul>';
+    }
+    const upd = new Date(data.metadata.checked_at).toLocaleString('en-GB', { weekday: 'short', hour: '2-digit', minute: '2-digit' });
+    html += `<p><em>Source: States of Guernsey Traffic &amp; Highways. Plans change; emergency closures can appear at short notice.</em></p>`;
+    document.getElementById('out').innerHTML = html;
+    document.getElementById('status').textContent = `Data checked ${upd}`;
+  }
+
+  async function copy(rich) {
+    const st = document.getElementById('status');
+    try {
+      if (rich && window.ClipboardItem) {
+        await navigator.clipboard.write([new ClipboardItem({ 'text/html': new Blob([html], { type: 'text/html' }), 'text/plain': new Blob([text], { type: 'text/plain' }) })]);
+      } else await navigator.clipboard.writeText(text);
+      st.textContent = 'Copied. Paste into the Briefing in Ghost.';
+    } catch { st.textContent = 'Copy failed: select the block below and copy it by hand.'; }
+  }
+  document.getElementById('copy').onclick = () => copy(true);
+  document.getElementById('copyText').onclick = () => copy(false);
+})();
+</script>
+</body>
+</html>

@@ -234,6 +234,7 @@
   const norm = s => String(s || '').normalize('NFD').replace(/\p{Diacritic}/gu, '').replace(/[`’]/g, "'").toLowerCase();
   const DAY = 864e5;
   const startOfDay = d => new Date(d.getFullYear(), d.getMonth(), d.getDate());
+  const addDays = (d, n) => new Date(d.getFullYear(), d.getMonth(), d.getDate() + n); // calendar days, safe across clock changes
   const fmtDay = d => d.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
   const fmtDayYear = d => d.toLocaleDateString('en-GB', { day: 'numeric', month: 'short', year: 'numeric' });
   const fmtTime = d => {
@@ -361,9 +362,9 @@
 
   // ---------------------------------------------------------------- filtering
   function range() {
-    if (state.date) { const d = new Date(state.date + 'T00:00'); return [d, new Date(+d + DAY)]; }
+    if (state.date) { const d = new Date(state.date + 'T00:00'); return [d, addDays(d, 1)]; }
     const t0 = startOfDay(new Date());
-    return [t0, new Date(+t0 + WHEN[state.when] * DAY)];
+    return [t0, addDays(t0, WHEN[state.when])];
   }
   function matches(j, [a, b], ignoreCat) {
     if (j.e < a || j.s >= b) return false;
