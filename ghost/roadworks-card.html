@@ -50,7 +50,7 @@
     return (h % 12 || 12) + (m ? '.' + String(m).padStart(2, '0') : '') + (h < 12 ? 'am' : 'pm');
   }
   fetch(MAP + 'data/roadworks.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (fc) {
-    var now = new Date(), t0 = sod(now), t1 = new Date(+t0 + 864e5);
+    var now = new Date(), t0 = sod(now), t1 = new Date(t0.getFullYear(), t0.getMonth(), t0.getDate() + 1);
     var jobs = fc.features.map(function (f) { var p = f.properties; p.s = new Date(p.start); p.e = new Date(p.end); return p; })
       .filter(function (p) { return p.category === 'closure' && p.s < t1 && p.e >= t0; })
       .sort(function (a, b) { return (b.emergency - a.emergency) || (a.e - b.e); });
