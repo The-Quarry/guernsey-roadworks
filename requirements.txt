@@ -1,4 +1,1 @@
-pandas==2.2.2
-pyproj==3.6.1
-openpyxl==3.1.5
-requests==2.32.3
+pyproj==3.7.2

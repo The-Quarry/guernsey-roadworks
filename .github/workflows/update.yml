@@ -1,76 +1,91 @@
-name: Build & publish data
+name: Build & publish roadworks
 
 on:
   push:
-    # Run on common site/data changes. Add/remove patterns as you like.
     paths:
-      - latest.xlsx
-      - build_from_arcgis_and_sheet.py
+      - build_data.py
       - requirements.txt
       - index.html
-      - assets/**               # include logo, css, etc
-      - data/**                 # allow manual edits to data/ to deploy
+      - assets/**
+      - .github/workflows/update.yml
   schedule:
-    - cron: '0 6 * * 1'         # Mondays 06:00 UTC
+    # Every two hours at :17 (UTC). Off the hour because GitHub queues
+    # on-the-hour schedules and runs them late.
+    - cron: '17 */2 * * *'
   workflow_dispatch:
 
-# Required for Pages via Actions
 permissions:
-  contents: write         # to commit updated data
-  pages: write            # to deploy Pages
-  id-token: write         # to authenticate the Pages deploy
+  contents: write   # commit refreshed data on main
+  pages: write
+  id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages-${{ github.ref }}
   cancel-in-progress: false
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-24.04
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
-          python-version: '3.11'
-          cache: 'pip'
+          python-version: '3.12'
+          cache: pip
 
       - name: Install deps
+        run: pip install -r requirements.txt
+
+      - name: Fetch roadworks from gov.gg
+        run: python -u build_data.py
+
+      # Commit only when the jobs themselves change, not just the timestamp,
+      # so the history shows real updates. Branches never commit.
+      - name: Commit data if jobs changed
+        if: github.ref == 'refs/heads/main'
         run: |
-          python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          python - <<'EOF'
+          import json, subprocess, sys
+          new = json.load(open("data/roadworks.json"))["features"]
+          try:
+              old = json.loads(subprocess.run(["git", "show", "HEAD:data/roadworks.json"],
+                                              capture_output=True, check=True).stdout)["features"]
+          except Exception:
+              old = None
+          open("changed", "w").write("1" if new != old else "0")
+          EOF
+          if [ "$(cat changed)" = "1" ]; then
+            git config user.name "github-actions"
+            git config user.email "github-actions@users.noreply.github.com"
+            git add data/roadworks.json
+            git commit -m "Update roadworks data"
+            git pull --rebase origin main
+            git push
+          else
+            echo "No change in jobs; deploying fresh timestamp only"
+          fi
 
-      - name: Ensure data folder
-        run: mkdir -p data
-
-      - name: Generate data (with retry)
+      - name: Stage site
         run: |
-          set -e
-          for i in 1 2 3; do
-            python -u build_from_arcgis_and_sheet.py && break || {
-              echo "Retry $i/3 after a short sleep…"
-              sleep 10
-            }
-          done
+          mkdir -p _site/data
+          cp index.html _site/
+          cp -r assets _site/
+          cp data/roadworks.json _site/data/
 
-      - name: Commit data if changed
-        run: |
-          git config user.name "github-actions"
-          git config user.email "github-actions@users.noreply.github.com"
-          git add data/closures.json data/closures_lines.json || true
-          git diff --staged --quiet || (git commit -m "Update data" && git push)
+      - uses: actions/configure-pages@v6
 
-      # ---- Pages deploy steps ----
-      - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      # Upload the entire repo working directory as the website artifact.
-      # Your index.html at repo root will be the entry point.
-      - name: Upload site
-        uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
-          path: ./
+          path: _site
 
-      - name: Deploy to GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

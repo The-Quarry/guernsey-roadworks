@@ -1,0 +1,77 @@
+<!--
+  Ghost HTML card for thequarry.media/roadworks-latest/
+  Paste this whole file into an HTML card. It lists today's road closures
+  from roadworks.thequarry.media/data/roadworks.json and links to the map.
+-->
+<div class="qrw" id="qrw">
+  <div class="qrw-head">
+    <div>
+      <div class="qrw-title">Road closures today</div>
+      <div class="qrw-updated" id="qrw-updated">Loading…</div>
+    </div>
+    <a class="qrw-btn" href="https://roadworks.thequarry.media/">Open the full map</a>
+  </div>
+  <ol class="qrw-list" id="qrw-list"></ol>
+  <a class="qrw-more" id="qrw-more" href="https://roadworks.thequarry.media/" hidden></a>
+  <noscript><p>See today's closures on the <a href="https://roadworks.thequarry.media/">roadworks map</a>.</p></noscript>
+</div>
+<style>
+  .qrw{border:1.5px solid #111;border-radius:14px;overflow:hidden;font-family:Poppins,system-ui,sans-serif;color:#111;background:#fff;margin:1.5em 0}
+  .qrw-head{display:flex;gap:12px;align-items:center;justify-content:space-between;flex-wrap:wrap;background:#f8fd98;border-bottom:1.5px solid #111;padding:14px 16px}
+  .qrw-title{font:700 20px/1.2 "Space Grotesk",Poppins,sans-serif}
+  .qrw-updated{font-size:13px;margin-top:2px}
+  .qrw-btn{display:inline-block;background:#111;color:#f8fd98!important;text-decoration:none!important;border-radius:999px;padding:9px 16px;font-weight:600;font-size:14px;white-space:nowrap}
+  .qrw-list{list-style:none;margin:0!important;padding:0!important}
+  .qrw-list li{margin:0!important;padding:0!important;border-bottom:1px solid #e4e4dc}
+  .qrw-list a{display:grid;grid-template-columns:4px 1fr;gap:12px;padding:11px 16px;color:inherit!important;text-decoration:none!important}
+  .qrw-list a:hover{background:#f6f6f1}
+  .qrw-bar{border-radius:2px;background:#d7261e}
+  .qrw-road{font:600 16px/1.25 "Space Grotesk",Poppins,sans-serif}
+  .qrw-meta{font-size:13px;color:#5d5d57}
+  .qrw-when{font-size:14px;font-weight:500;margin-top:2px}
+  .qrw-tags{display:flex;flex-wrap:wrap;gap:4px;margin-top:5px}
+  .qrw-bus{font:600 11px/1 Poppins,sans-serif;background:#111;color:#f8fd98;border-radius:4px;padding:4px 6px}
+  .qrw-em{font-size:11px;font-weight:500;background:#d7261e;color:#fff;border-radius:4px;padding:3px 6px}
+  .qrw-more{display:block;padding:12px 16px;font-weight:600;color:#111!important}
+</style>
+<script>
+(function () {
+  var MAP = 'https://roadworks.thequarry.media/';
+  var list = document.getElementById('qrw-list'), more = document.getElementById('qrw-more'), upd = document.getElementById('qrw-updated');
+  function esc(s) { return String(s || '').replace(/[&<>"']/g, function (c) { return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]; }); }
+  function sod(d) { return new Date(d.getFullYear(), d.getMonth(), d.getDate()); }
+  function day(d) {
+    var diff = Math.round((sod(d) - sod(new Date())) / 864e5);
+    return diff === 0 ? 'today' : diff === 1 ? 'tomorrow' : d.toLocaleDateString('en-GB', { weekday: 'short', day: 'numeric', month: 'short' });
+  }
+  function time(d) {
+    var h = d.getHours(), m = d.getMinutes();
+    if ((h === 23 && m === 59) || (h === 0 && m === 0)) return '';
+    return (h % 12 || 12) + (m ? '.' + String(m).padStart(2, '0') : '') + (h < 12 ? 'am' : 'pm');
+  }
+  fetch(MAP + 'data/roadworks.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (fc) {
+    var now = new Date(), t0 = sod(now), t1 = new Date(+t0 + 864e5);
+    var jobs = fc.features.map(function (f) { var p = f.properties; p.s = new Date(p.start); p.e = new Date(p.end); return p; })
+      .filter(function (p) { return p.category === 'closure' && p.s < t1 && p.e >= t0; })
+      .sort(function (a, b) { return (b.emergency - a.emergency) || (a.e - b.e); });
+    var at = new Date(fc.metadata.checked_at);
+    upd.textContent = jobs.length + (jobs.length === 1 ? ' closure' : ' closures') + ' \u00b7 updated ' +
+      at.toLocaleTimeString('en-GB', { hour: '2-digit', minute: '2-digit' }) + (day(at) === 'today' ? ' today' : ' ' + day(at));
+    var SHOW = 8;
+    list.innerHTML = jobs.slice(0, SHOW).map(function (p) {
+      var w = day(p.e), t = time(p.e);
+      var when = (p.s > now ? 'From ' + day(p.s) + (time(p.s) ? ' ' + time(p.s) : '') + ', ' : '') +
+        ((w === 'today' || w === 'tomorrow') ? 'ends ' + w + (t ? ' at ' + t : '') : 'until ' + w);
+      when = when.charAt(0).toUpperCase() + when.slice(1);
+      var tags = (p.emergency ? '<span class="qrw-em">Emergency</span>' : '') +
+        (p.bus_routes || []).slice(0, 6).map(function (r) { return '<span class="qrw-bus">' + esc(r) + '</span>'; }).join('');
+      return '<li><a href="' + MAP + '?job=' + encodeURIComponent(p.id) + '"><span class="qrw-bar"></span><span>' +
+        '<div class="qrw-road">' + esc(p.road) + '</div>' +
+        (p.parish ? '<div class="qrw-meta">' + esc(p.parish) + '</div>' : '') +
+        '<div class="qrw-when">' + esc(when) + '</div>' +
+        (tags ? '<div class="qrw-tags">' + tags + '</div>' : '') + '</span></a></li>';
+    }).join('') || '<li><a href="' + MAP + '"><span></span><span>No road closures listed for today.</span></a></li>';
+    if (jobs.length > SHOW) { more.hidden = false; more.textContent = 'See all ' + jobs.length + ' closures and other roadworks on the map \u2192'; }
+  }).catch(function () { upd.innerHTML = 'Couldn’t load the list. <a href="' + MAP + '">Open the map</a>.'; });
+})();
+</script>
